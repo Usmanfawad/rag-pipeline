@@ -1,0 +1,2159 @@
+2025-10-16 19:35:35 | INFO     | uvicorn.error | _serve:84 | Started server process [14659]
+2025-10-16 19:35:35 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:35:37 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:35:48 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:35:48 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:35:48 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:35:48 | INFO     | uvicorn.error | _serve:94 | Finished server process [14659]
+2025-10-16 19:35:49 | INFO     | uvicorn.error | _serve:84 | Started server process [14814]
+2025-10-16 19:35:49 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:35:59 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:35:59 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:35:59 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:35:59 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:35:59 | INFO     | uvicorn.error | _serve:94 | Finished server process [14814]
+2025-10-16 19:36:00 | INFO     | uvicorn.error | _serve:84 | Started server process [14959]
+2025-10-16 19:36:00 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:36:10 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:36:10 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:36:10 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:36:10 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:36:10 | INFO     | uvicorn.error | _serve:94 | Finished server process [14959]
+2025-10-16 19:36:11 | INFO     | uvicorn.error | _serve:84 | Started server process [15095]
+2025-10-16 19:36:11 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:36:12 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:36:39 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:36:39 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:36:39 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:36:39 | INFO     | uvicorn.error | _serve:94 | Finished server process [15095]
+2025-10-16 19:36:40 | INFO     | uvicorn.error | _serve:84 | Started server process [15422]
+2025-10-16 19:36:40 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:36:41 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:36:42 | INFO     | uvicorn.error | _serve:84 | Started server process [15457]
+2025-10-16 19:36:42 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:36:46 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:38:11 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:38:11 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:38:11 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:38:11 | INFO     | uvicorn.error | _serve:94 | Finished server process [15457]
+2025-10-16 19:38:12 | INFO     | uvicorn.error | _serve:84 | Started server process [16482]
+2025-10-16 19:38:12 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:38:14 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:38:20 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:38:20 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:38:20 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:38:20 | INFO     | uvicorn.error | _serve:94 | Finished server process [16482]
+2025-10-16 19:38:21 | INFO     | uvicorn.error | _serve:84 | Started server process [16599]
+2025-10-16 19:38:21 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:38:25 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:38:37 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:38:37 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:38:37 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:38:37 | INFO     | uvicorn.error | _serve:94 | Finished server process [16599]
+2025-10-16 19:38:38 | INFO     | uvicorn.error | _serve:84 | Started server process [16796]
+2025-10-16 19:38:38 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:38:45 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:39:04 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:39:04 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:39:04 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:39:04 | INFO     | uvicorn.error | _serve:94 | Finished server process [16796]
+2025-10-16 19:39:05 | INFO     | uvicorn.error | _serve:84 | Started server process [17097]
+2025-10-16 19:39:05 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:39:08 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:39:34 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:39:34 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:39:34 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:39:34 | INFO     | uvicorn.error | _serve:94 | Finished server process [17097]
+2025-10-16 19:39:35 | INFO     | uvicorn.error | _serve:84 | Started server process [17448]
+2025-10-16 19:39:35 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:39:41 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:39:49 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:39:49 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:39:49 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:39:49 | INFO     | uvicorn.error | _serve:94 | Finished server process [17448]
+2025-10-16 19:39:50 | INFO     | uvicorn.error | _serve:84 | Started server process [17619]
+2025-10-16 19:39:50 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:39:51 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:39:55 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:39:56 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:39:56 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:39:56 | INFO     | uvicorn.error | _serve:94 | Finished server process [17619]
+2025-10-16 19:41:06 | INFO     | uvicorn.error | _serve:84 | Started server process [18500]
+2025-10-16 19:41:06 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:41:07 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:41:16 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:41:16 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:41:16 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:41:16 | INFO     | uvicorn.error | _serve:94 | Finished server process [18500]
+2025-10-16 19:41:17 | INFO     | uvicorn.error | _serve:84 | Started server process [18626]
+2025-10-16 19:41:17 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:41:23 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:41:34 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:41:34 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:41:34 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:41:34 | INFO     | uvicorn.error | _serve:94 | Finished server process [18626]
+2025-10-16 19:41:35 | INFO     | uvicorn.error | _serve:84 | Started server process [18835]
+2025-10-16 19:41:35 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:41:41 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:41:50 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:41:50 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:41:50 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:41:50 | INFO     | uvicorn.error | _serve:94 | Finished server process [18835]
+2025-10-16 19:41:51 | INFO     | uvicorn.error | _serve:84 | Started server process [19024]
+2025-10-16 19:41:51 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:41:54 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:42:04 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:42:04 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:42:04 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:42:04 | INFO     | uvicorn.error | _serve:94 | Finished server process [19024]
+2025-10-16 19:42:05 | INFO     | uvicorn.error | _serve:84 | Started server process [19176]
+2025-10-16 19:42:05 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:42:13 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:42:18 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:42:18 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:42:18 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:42:18 | INFO     | uvicorn.error | _serve:94 | Finished server process [19176]
+2025-10-16 19:42:19 | INFO     | uvicorn.error | _serve:84 | Started server process [19351]
+2025-10-16 19:42:19 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:42:23 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:42:33 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:42:34 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:42:34 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:42:34 | INFO     | uvicorn.error | _serve:94 | Finished server process [19351]
+2025-10-16 19:42:35 | INFO     | uvicorn.error | _serve:84 | Started server process [19535]
+2025-10-16 19:42:35 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:42:38 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:42:39 | INFO     | uvicorn.error | _serve:84 | Started server process [19594]
+2025-10-16 19:42:39 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:42:40 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:43:20 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:43:20 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:43:20 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:43:20 | INFO     | uvicorn.error | _serve:94 | Finished server process [19594]
+2025-10-16 19:43:21 | INFO     | uvicorn.error | _serve:84 | Started server process [20059]
+2025-10-16 19:43:21 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:43:22 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:43:30 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:43:30 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:43:30 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:43:30 | INFO     | uvicorn.error | _serve:94 | Finished server process [20059]
+2025-10-16 19:43:30 | INFO     | uvicorn.error | _serve:84 | Started server process [20182]
+2025-10-16 19:43:30 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:43:34 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:43:40 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:43:40 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:43:40 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:43:40 | INFO     | uvicorn.error | _serve:94 | Finished server process [20182]
+2025-10-16 19:43:41 | INFO     | uvicorn.error | _serve:84 | Started server process [20305]
+2025-10-16 19:43:41 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:43:48 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:44:00 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:44:00 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:44:00 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:44:00 | INFO     | uvicorn.error | _serve:94 | Finished server process [20305]
+2025-10-16 19:44:01 | INFO     | uvicorn.error | _serve:84 | Started server process [20550]
+2025-10-16 19:44:01 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:44:04 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:45:22 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:45:22 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:45:22 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:45:22 | INFO     | uvicorn.error | _serve:94 | Finished server process [20550]
+2025-10-16 19:45:23 | INFO     | uvicorn.error | _serve:84 | Started server process [21485]
+2025-10-16 19:45:23 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:45:27 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:45:32 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:45:32 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:45:32 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:45:32 | INFO     | uvicorn.error | _serve:94 | Finished server process [21485]
+2025-10-16 19:45:32 | INFO     | uvicorn.error | _serve:84 | Started server process [21605]
+2025-10-16 19:45:32 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:45:36 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:45:48 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:45:48 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:45:48 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:45:48 | INFO     | uvicorn.error | _serve:94 | Finished server process [21605]
+2025-10-16 19:45:49 | INFO     | uvicorn.error | _serve:84 | Started server process [21796]
+2025-10-16 19:45:49 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:45:50 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:46:06 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:46:06 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:46:06 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:46:06 | INFO     | uvicorn.error | _serve:94 | Finished server process [21796]
+2025-10-16 19:46:06 | INFO     | uvicorn.error | _serve:84 | Started server process [22009]
+2025-10-16 19:46:06 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:46:08 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:46:49 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:46:50 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:46:50 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:46:50 | INFO     | uvicorn.error | _serve:94 | Finished server process [22009]
+2025-10-16 19:46:50 | INFO     | uvicorn.error | _serve:84 | Started server process [22505]
+2025-10-16 19:46:50 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:46:57 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:46:58 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:46:58 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:46:58 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:46:58 | INFO     | uvicorn.error | _serve:94 | Finished server process [22505]
+2025-10-16 19:46:59 | INFO     | uvicorn.error | _serve:84 | Started server process [22617]
+2025-10-16 19:46:59 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:47:00 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:47:11 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:47:11 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:47:11 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:47:11 | INFO     | uvicorn.error | _serve:94 | Finished server process [22617]
+2025-10-16 19:47:11 | INFO     | uvicorn.error | _serve:84 | Started server process [22770]
+2025-10-16 19:47:11 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:47:18 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:47:19 | INFO     | uvicorn.error | _serve:84 | Started server process [22867]
+2025-10-16 19:47:19 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:47:20 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:47:21 | INFO     | uvicorn.error | _serve:84 | Started server process [22891]
+2025-10-16 19:47:21 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:47:22 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:47:49 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:47:49 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:47:49 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:47:49 | INFO     | uvicorn.error | _serve:94 | Finished server process [22891]
+2025-10-16 19:47:50 | INFO     | uvicorn.error | _serve:84 | Started server process [23220]
+2025-10-16 19:47:50 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:47:53 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:49:53 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:49:53 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:49:53 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:49:53 | INFO     | uvicorn.error | _serve:94 | Finished server process [23220]
+2025-10-16 19:49:54 | INFO     | uvicorn.error | _serve:84 | Started server process [24627]
+2025-10-16 19:49:54 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:49:55 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:50:19 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:50:19 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:50:19 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:50:19 | INFO     | uvicorn.error | _serve:94 | Finished server process [24627]
+2025-10-16 19:50:19 | INFO     | uvicorn.error | _serve:84 | Started server process [24933]
+2025-10-16 19:50:19 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:50:25 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:50:42 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:50:42 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:50:42 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:50:42 | INFO     | uvicorn.error | _serve:94 | Finished server process [24933]
+2025-10-16 19:50:43 | INFO     | uvicorn.error | _serve:84 | Started server process [25202]
+2025-10-16 19:50:43 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:50:51 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:53:52 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:53:52 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:53:52 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:53:52 | INFO     | uvicorn.error | _serve:94 | Finished server process [25202]
+2025-10-16 19:53:53 | INFO     | uvicorn.error | _serve:84 | Started server process [27359]
+2025-10-16 19:53:53 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:53:57 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:54:00 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:54:00 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:54:00 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:54:00 | INFO     | uvicorn.error | _serve:94 | Finished server process [27359]
+2025-10-16 19:54:01 | INFO     | uvicorn.error | _serve:84 | Started server process [27455]
+2025-10-16 19:54:01 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:54:06 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:54:33 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:54:33 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:54:33 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:54:33 | INFO     | uvicorn.error | _serve:94 | Finished server process [27455]
+2025-10-16 19:54:34 | INFO     | uvicorn.error | _serve:84 | Started server process [27842]
+2025-10-16 19:54:34 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:54:36 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:54:46 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:54:46 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:54:46 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:54:46 | INFO     | uvicorn.error | _serve:94 | Finished server process [27842]
+2025-10-16 19:54:47 | INFO     | uvicorn.error | _serve:84 | Started server process [27994]
+2025-10-16 19:54:47 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:54:50 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:55:00 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:55:00 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:55:00 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:55:00 | INFO     | uvicorn.error | _serve:94 | Finished server process [27994]
+2025-10-16 19:55:00 | INFO     | uvicorn.error | _serve:84 | Started server process [28161]
+2025-10-16 19:55:00 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:55:05 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:55:18 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:55:18 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:55:18 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:55:18 | INFO     | uvicorn.error | _serve:94 | Finished server process [28161]
+2025-10-16 19:55:19 | INFO     | uvicorn.error | _serve:84 | Started server process [28383]
+2025-10-16 19:55:19 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:55:26 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:55:27 | INFO     | uvicorn.error | _serve:84 | Started server process [28478]
+2025-10-16 19:55:27 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:55:31 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:55:32 | INFO     | uvicorn.error | _serve:84 | Started server process [28541]
+2025-10-16 19:55:32 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:55:36 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:58:17 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:58:17 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:58:17 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:58:17 | INFO     | uvicorn.error | _serve:94 | Finished server process [28541]
+2025-10-16 19:58:18 | INFO     | uvicorn.error | _serve:84 | Started server process [30414]
+2025-10-16 19:58:18 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:58:20 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:58:21 | INFO     | uvicorn.error | _serve:84 | Started server process [30462]
+2025-10-16 19:58:21 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:58:28 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:58:32 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 19:58:32 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 19:58:32 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 19:58:32 | INFO     | uvicorn.error | _serve:94 | Finished server process [30462]
+2025-10-16 19:58:33 | INFO     | uvicorn.error | _serve:84 | Started server process [30611]
+2025-10-16 19:58:33 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:58:37 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 19:58:38 | INFO     | uvicorn.error | _serve:84 | Started server process [30678]
+2025-10-16 19:58:38 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 19:58:41 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 20:00:11 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 20:00:11 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 20:00:11 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 20:00:11 | INFO     | uvicorn.error | _serve:94 | Finished server process [30678]
+2025-10-16 20:00:12 | INFO     | uvicorn.error | _serve:84 | Started server process [31139]
+2025-10-16 20:00:12 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 20:00:20 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 20:00:23 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 20:00:23 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 20:00:23 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 20:00:23 | INFO     | uvicorn.error | _serve:94 | Finished server process [31139]
+2025-10-16 20:00:23 | INFO     | uvicorn.error | _serve:84 | Started server process [31149]
+2025-10-16 20:00:23 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 20:00:28 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 20:00:39 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 20:00:39 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 20:00:39 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 20:00:39 | INFO     | uvicorn.error | _serve:94 | Finished server process [31149]
+2025-10-16 20:00:40 | INFO     | uvicorn.error | _serve:84 | Started server process [31157]
+2025-10-16 20:00:40 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 20:00:46 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 20:01:26 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 20:01:26 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 20:01:26 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 20:01:26 | INFO     | uvicorn.error | _serve:94 | Finished server process [31157]
+2025-10-16 20:01:27 | INFO     | uvicorn.error | _serve:84 | Started server process [31197]
+2025-10-16 20:01:27 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 20:01:31 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 20:03:13 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 20:03:13 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 20:03:13 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 20:03:13 | INFO     | uvicorn.error | _serve:94 | Finished server process [31197]
+2025-10-16 20:03:13 | INFO     | uvicorn.error | _serve:84 | Started server process [31243]
+2025-10-16 20:03:13 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 20:03:18 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 20:55:30 | INFO     | uvicorn.error | _serve:84 | Started server process [1692]
+2025-10-16 20:55:30 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-16 20:55:37 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-16 21:17:31 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-16 21:17:31 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-16 21:17:31 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-16 21:17:31 | INFO     | uvicorn.error | _serve:94 | Finished server process [1692]
+2025-10-20 16:25:11 | INFO     | uvicorn.error | _serve:84 | Started server process [3459]
+2025-10-20 16:25:11 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-20 16:25:13 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-20 16:32:51 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-20 16:32:51 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-20 16:32:51 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-20 16:32:51 | INFO     | uvicorn.error | _serve:94 | Finished server process [3459]
+2025-10-20 16:32:52 | INFO     | uvicorn.error | _serve:84 | Started server process [8860]
+2025-10-20 16:32:52 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-20 16:33:18 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-20 16:33:19 | INFO     | uvicorn.error | _serve:84 | Started server process [9178]
+2025-10-20 16:33:19 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-20 16:33:20 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-20 16:33:21 | INFO     | uvicorn.error | _serve:84 | Started server process [9210]
+2025-10-20 16:33:21 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-20 16:33:30 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-20 16:33:58 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-20 16:33:58 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-20 16:33:58 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-20 16:33:58 | INFO     | uvicorn.error | _serve:94 | Finished server process [9210]
+2025-10-20 16:33:59 | INFO     | uvicorn.error | _serve:84 | Started server process [9645]
+2025-10-20 16:33:59 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-20 16:34:05 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-20 16:34:06 | INFO     | uvicorn.error | _serve:84 | Started server process [9760]
+2025-10-20 16:34:06 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-20 16:34:15 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-20 16:36:18 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-20 16:36:18 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-20 16:36:18 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-20 16:36:18 | INFO     | uvicorn.error | _serve:94 | Finished server process [9760]
+2025-10-20 16:36:25 | INFO     | uvicorn.error | _serve:84 | Started server process [11418]
+2025-10-20 16:36:25 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-20 16:36:26 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-20 16:37:00 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-20 16:37:00 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-20 16:37:00 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-20 16:37:00 | INFO     | uvicorn.error | _serve:94 | Finished server process [11418]
+2025-10-20 16:37:01 | INFO     | uvicorn.error | _serve:84 | Started server process [11849]
+2025-10-20 16:37:01 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-20 16:37:11 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-20 16:37:12 | INFO     | uvicorn.error | _serve:84 | Started server process [11979]
+2025-10-20 16:37:12 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-20 16:37:13 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-20 16:42:28 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-20 16:42:28 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-20 16:42:28 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-20 16:42:28 | INFO     | uvicorn.error | _serve:94 | Finished server process [11979]
+2025-10-20 16:42:29 | INFO     | uvicorn.error | _serve:84 | Started server process [15585]
+2025-10-20 16:42:29 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-20 16:42:31 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-20 16:42:38 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-20 16:42:38 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-20 16:42:38 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-20 16:42:38 | INFO     | uvicorn.error | _serve:94 | Finished server process [15585]
+2025-10-20 16:42:39 | INFO     | uvicorn.error | _serve:84 | Started server process [15712]
+2025-10-20 16:42:39 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-20 16:42:47 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-20 16:43:47 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-20 16:43:48 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-20 16:43:48 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-20 16:43:48 | INFO     | uvicorn.error | _serve:94 | Finished server process [15712]
+2025-10-20 16:43:48 | INFO     | uvicorn.error | _serve:84 | Started server process [16519]
+2025-10-20 16:43:48 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-20 16:43:56 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-20 16:44:55 | INFO     | uvicorn.error | _serve:84 | Started server process [17453]
+2025-10-20 16:44:55 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-20 16:45:01 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-20 16:45:02 | INFO     | uvicorn.error | _serve:84 | Started server process [17590]
+2025-10-20 16:45:02 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-20 16:45:08 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-20 16:45:09 | INFO     | uvicorn.error | _serve:84 | Started server process [17682]
+2025-10-20 16:45:09 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-20 16:45:12 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-20 16:46:32 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-20 16:46:33 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-20 16:46:33 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-20 16:46:33 | INFO     | uvicorn.error | _serve:94 | Finished server process [17682]
+2025-10-20 16:46:34 | INFO     | uvicorn.error | _serve:84 | Started server process [18641]
+2025-10-20 16:46:34 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-20 16:46:39 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-20 16:46:46 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-20 16:46:46 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-20 16:46:46 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-20 16:46:46 | INFO     | uvicorn.error | _serve:94 | Finished server process [18641]
+2025-10-20 16:46:47 | INFO     | uvicorn.error | _serve:84 | Started server process [18803]
+2025-10-20 16:46:47 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-20 16:46:50 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-20 16:49:23 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-20 16:49:23 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-20 16:49:23 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-20 16:49:23 | INFO     | uvicorn.error | _serve:94 | Finished server process [18803]
+2025-10-20 16:49:26 | INFO     | uvicorn.error | _serve:84 | Started server process [20699]
+2025-10-20 16:49:26 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-20 16:49:28 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-20 16:50:53 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-20 16:50:53 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-20 16:50:53 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-20 16:50:53 | INFO     | uvicorn.error | _serve:94 | Finished server process [20699]
+2025-10-20 16:50:54 | INFO     | uvicorn.error | _serve:84 | Started server process [21703]
+2025-10-20 16:50:54 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-20 16:50:55 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-20 16:50:56 | INFO     | uvicorn.error | _serve:84 | Started server process [21740]
+2025-10-20 16:50:56 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-20 16:50:57 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-20 17:55:04 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-20 17:55:04 | INFO     | uvicorn.error | _serve:94 | Finished server process [21740]
+2025-10-20 18:12:22 | INFO     | uvicorn.error | _serve:84 | Started server process [4238]
+2025-10-20 18:12:22 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-20 18:12:24 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-20 18:17:02 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-20 18:17:02 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-20 18:17:02 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-20 18:17:02 | INFO     | uvicorn.error | _serve:94 | Finished server process [4238]
+2025-10-20 21:42:03 | INFO     | uvicorn.error | _serve:84 | Started server process [1528]
+2025-10-20 21:42:03 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-20 21:42:18 | ERROR    | uvicorn.error | send:121 | Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/socket.py", line 978, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 753, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x10d31a180>: Failed to resolve 'api.pinecone.io' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/starlette/routing.py", line 694, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 134, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 134, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/main.py", line 21, in lifespan
+    bootstrap_all()
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/pinecone_admin.py", line 26, in bootstrap_all
+    ensure_index(settings.INDEX_THERAPY)
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/pinecone_admin.py", line 10, in ensure_index
+    if not client.has_index(name):
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/pinecone.py", line 393, in has_index
+    return self.db.index.has(name=name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/utils/require_kwargs.py", line 14, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/db_control/resources/sync/index.py", line 214, in has
+    if name in self.list().names():
+               ^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/utils/require_kwargs.py", line 14, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/db_control/resources/sync/index.py", line 200, in list
+    response = self._index_api.list_indexes()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/endpoint.py", line 102, in __call__
+    return self.callable(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/core/openapi/db_control/api/manage_indexes_api.py", line 1161, in __list_indexes
+    return self.call_with_http_info(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/endpoint.py", line 134, in call_with_http_info
+    return self.api_client.call_api(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 306, in call_api
+    return self.__call_api(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 170, in __call_api
+    response_data = self.request(
+                    ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 360, in request
+    return self.rest_client.GET(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/rest_utils.py", line 75, in GET
+    return self.request(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/rest_urllib3.py", line 246, in request
+    r = self.pool_manager.request(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/_request_methods.py", line 135, in request
+    return self.request_encode_url(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.pinecone.io', port=443): Max retries exceeded with url: /indexes (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x10d31a180>: Failed to resolve 'api.pinecone.io' ([Errno 8] nodename nor servname provided, or not known)"))
+
+2025-10-20 21:42:18 | ERROR    | uvicorn.error | startup:59 | Application startup failed. Exiting.
+2025-10-20 21:49:16 | INFO     | uvicorn.error | _serve:84 | Started server process [6853]
+2025-10-20 21:49:16 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-20 21:49:32 | ERROR    | uvicorn.error | send:121 | Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/socket.py", line 978, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 753, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x121a221e0>: Failed to resolve 'api.pinecone.io' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/starlette/routing.py", line 694, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 134, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 134, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/main.py", line 21, in lifespan
+    bootstrap_all()
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/pinecone_admin.py", line 26, in bootstrap_all
+    ensure_index(settings.INDEX_THERAPY)
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/pinecone_admin.py", line 10, in ensure_index
+    if not client.has_index(name):
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/pinecone.py", line 393, in has_index
+    return self.db.index.has(name=name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/utils/require_kwargs.py", line 14, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/db_control/resources/sync/index.py", line 214, in has
+    if name in self.list().names():
+               ^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/utils/require_kwargs.py", line 14, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/db_control/resources/sync/index.py", line 200, in list
+    response = self._index_api.list_indexes()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/endpoint.py", line 102, in __call__
+    return self.callable(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/core/openapi/db_control/api/manage_indexes_api.py", line 1161, in __list_indexes
+    return self.call_with_http_info(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/endpoint.py", line 134, in call_with_http_info
+    return self.api_client.call_api(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 306, in call_api
+    return self.__call_api(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 170, in __call_api
+    response_data = self.request(
+                    ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 360, in request
+    return self.rest_client.GET(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/rest_utils.py", line 75, in GET
+    return self.request(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/rest_urllib3.py", line 246, in request
+    r = self.pool_manager.request(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/_request_methods.py", line 135, in request
+    return self.request_encode_url(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.pinecone.io', port=443): Max retries exceeded with url: /indexes (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x121a221e0>: Failed to resolve 'api.pinecone.io' ([Errno 8] nodename nor servname provided, or not known)"))
+
+2025-10-20 21:49:32 | ERROR    | uvicorn.error | startup:59 | Application startup failed. Exiting.
+2025-10-21 06:23:55 | INFO     | uvicorn.error | _serve:84 | Started server process [2091]
+2025-10-21 06:23:55 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-21 06:24:08 | ERROR    | uvicorn.error | send:121 | Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/socket.py", line 978, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 753, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x1261564b0>: Failed to resolve 'api.pinecone.io' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/starlette/routing.py", line 694, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 134, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 134, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/main.py", line 21, in lifespan
+    bootstrap_all()
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/pinecone_admin.py", line 26, in bootstrap_all
+    ensure_index(settings.INDEX_THERAPY)
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/pinecone_admin.py", line 10, in ensure_index
+    if not client.has_index(name):
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/pinecone.py", line 393, in has_index
+    return self.db.index.has(name=name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/utils/require_kwargs.py", line 14, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/db_control/resources/sync/index.py", line 214, in has
+    if name in self.list().names():
+               ^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/utils/require_kwargs.py", line 14, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/db_control/resources/sync/index.py", line 200, in list
+    response = self._index_api.list_indexes()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/endpoint.py", line 102, in __call__
+    return self.callable(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/core/openapi/db_control/api/manage_indexes_api.py", line 1161, in __list_indexes
+    return self.call_with_http_info(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/endpoint.py", line 134, in call_with_http_info
+    return self.api_client.call_api(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 306, in call_api
+    return self.__call_api(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 170, in __call_api
+    response_data = self.request(
+                    ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 360, in request
+    return self.rest_client.GET(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/rest_utils.py", line 75, in GET
+    return self.request(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/rest_urllib3.py", line 246, in request
+    r = self.pool_manager.request(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/_request_methods.py", line 135, in request
+    return self.request_encode_url(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.pinecone.io', port=443): Max retries exceeded with url: /indexes (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1261564b0>: Failed to resolve 'api.pinecone.io' ([Errno 8] nodename nor servname provided, or not known)"))
+
+2025-10-21 06:24:08 | ERROR    | uvicorn.error | startup:59 | Application startup failed. Exiting.
+2025-10-21 06:46:49 | INFO     | uvicorn.error | _serve:84 | Started server process [17960]
+2025-10-21 06:46:49 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-21 06:47:01 | ERROR    | uvicorn.error | send:121 | Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/socket.py", line 978, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 753, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x10e322240>: Failed to resolve 'api.pinecone.io' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/starlette/routing.py", line 694, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 134, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 134, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/main.py", line 21, in lifespan
+    bootstrap_all()
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/pinecone_admin.py", line 26, in bootstrap_all
+    ensure_index(settings.INDEX_THERAPY)
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/pinecone_admin.py", line 10, in ensure_index
+    if not client.has_index(name):
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/pinecone.py", line 393, in has_index
+    return self.db.index.has(name=name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/utils/require_kwargs.py", line 14, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/db_control/resources/sync/index.py", line 214, in has
+    if name in self.list().names():
+               ^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/utils/require_kwargs.py", line 14, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/db_control/resources/sync/index.py", line 200, in list
+    response = self._index_api.list_indexes()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/endpoint.py", line 102, in __call__
+    return self.callable(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/core/openapi/db_control/api/manage_indexes_api.py", line 1161, in __list_indexes
+    return self.call_with_http_info(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/endpoint.py", line 134, in call_with_http_info
+    return self.api_client.call_api(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 306, in call_api
+    return self.__call_api(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 170, in __call_api
+    response_data = self.request(
+                    ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 360, in request
+    return self.rest_client.GET(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/rest_utils.py", line 75, in GET
+    return self.request(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/rest_urllib3.py", line 246, in request
+    r = self.pool_manager.request(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/_request_methods.py", line 135, in request
+    return self.request_encode_url(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.pinecone.io', port=443): Max retries exceeded with url: /indexes (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x10e322240>: Failed to resolve 'api.pinecone.io' ([Errno 8] nodename nor servname provided, or not known)"))
+
+2025-10-21 06:47:01 | ERROR    | uvicorn.error | startup:59 | Application startup failed. Exiting.
+2025-10-21 13:13:06 | INFO     | uvicorn.error | _serve:84 | Started server process [1910]
+2025-10-21 13:13:06 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-21 13:13:20 | ERROR    | uvicorn.error | send:121 | Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/socket.py", line 978, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 753, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x11b7224e0>: Failed to resolve 'api.pinecone.io' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/starlette/routing.py", line 694, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 134, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 134, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/main.py", line 21, in lifespan
+    bootstrap_all()
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/pinecone_admin.py", line 26, in bootstrap_all
+    ensure_index(settings.INDEX_THERAPY)
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/pinecone_admin.py", line 10, in ensure_index
+    if not client.has_index(name):
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/pinecone.py", line 393, in has_index
+    return self.db.index.has(name=name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/utils/require_kwargs.py", line 14, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/db_control/resources/sync/index.py", line 214, in has
+    if name in self.list().names():
+               ^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/utils/require_kwargs.py", line 14, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/db_control/resources/sync/index.py", line 200, in list
+    response = self._index_api.list_indexes()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/endpoint.py", line 102, in __call__
+    return self.callable(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/core/openapi/db_control/api/manage_indexes_api.py", line 1161, in __list_indexes
+    return self.call_with_http_info(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/endpoint.py", line 134, in call_with_http_info
+    return self.api_client.call_api(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 306, in call_api
+    return self.__call_api(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 170, in __call_api
+    response_data = self.request(
+                    ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 360, in request
+    return self.rest_client.GET(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/rest_utils.py", line 75, in GET
+    return self.request(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/rest_urllib3.py", line 246, in request
+    r = self.pool_manager.request(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/_request_methods.py", line 135, in request
+    return self.request_encode_url(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.pinecone.io', port=443): Max retries exceeded with url: /indexes (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x11b7224e0>: Failed to resolve 'api.pinecone.io' ([Errno 8] nodename nor servname provided, or not known)"))
+
+2025-10-21 13:13:20 | ERROR    | uvicorn.error | startup:59 | Application startup failed. Exiting.
+2025-10-21 13:14:40 | INFO     | uvicorn.error | _serve:84 | Started server process [2263]
+2025-10-21 13:14:40 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-21 13:14:53 | ERROR    | uvicorn.error | send:121 | Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/socket.py", line 978, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 753, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x10c982480>: Failed to resolve 'api.pinecone.io' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/starlette/routing.py", line 694, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 134, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 134, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/main.py", line 21, in lifespan
+    bootstrap_all()
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/pinecone_admin.py", line 26, in bootstrap_all
+    ensure_index(settings.INDEX_THERAPY)
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/pinecone_admin.py", line 10, in ensure_index
+    if not client.has_index(name):
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/pinecone.py", line 393, in has_index
+    return self.db.index.has(name=name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/utils/require_kwargs.py", line 14, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/db_control/resources/sync/index.py", line 214, in has
+    if name in self.list().names():
+               ^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/utils/require_kwargs.py", line 14, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/db_control/resources/sync/index.py", line 200, in list
+    response = self._index_api.list_indexes()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/endpoint.py", line 102, in __call__
+    return self.callable(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/core/openapi/db_control/api/manage_indexes_api.py", line 1161, in __list_indexes
+    return self.call_with_http_info(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/endpoint.py", line 134, in call_with_http_info
+    return self.api_client.call_api(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 306, in call_api
+    return self.__call_api(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 170, in __call_api
+    response_data = self.request(
+                    ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 360, in request
+    return self.rest_client.GET(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/rest_utils.py", line 75, in GET
+    return self.request(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/rest_urllib3.py", line 246, in request
+    r = self.pool_manager.request(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/_request_methods.py", line 135, in request
+    return self.request_encode_url(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.pinecone.io', port=443): Max retries exceeded with url: /indexes (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x10c982480>: Failed to resolve 'api.pinecone.io' ([Errno 8] nodename nor servname provided, or not known)"))
+
+2025-10-21 13:14:53 | ERROR    | uvicorn.error | startup:59 | Application startup failed. Exiting.
+2025-10-21 13:20:31 | INFO     | uvicorn.error | _serve:84 | Started server process [2667]
+2025-10-21 13:20:31 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-21 13:20:40 | ERROR    | uvicorn.error | send:121 | Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 790, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 969, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 480, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 524, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/ssl.py", line 1319, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '34.36.155.80'. (_ssl.c:1010)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '34.36.155.80'. (_ssl.c:1010)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/starlette/routing.py", line 694, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 134, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 134, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/main.py", line 21, in lifespan
+    bootstrap_all()
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/pinecone_admin.py", line 29, in bootstrap_all
+    ensure_index(settings.INDEX_THERAPY)
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/pinecone_admin.py", line 13, in ensure_index
+    if not client.has_index(name):
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/pinecone.py", line 393, in has_index
+    return self.db.index.has(name=name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/utils/require_kwargs.py", line 14, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/db_control/resources/sync/index.py", line 214, in has
+    if name in self.list().names():
+               ^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/utils/require_kwargs.py", line 14, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/db_control/resources/sync/index.py", line 200, in list
+    response = self._index_api.list_indexes()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/endpoint.py", line 102, in __call__
+    return self.callable(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/core/openapi/db_control/api/manage_indexes_api.py", line 1161, in __list_indexes
+    return self.call_with_http_info(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/endpoint.py", line 134, in call_with_http_info
+    return self.api_client.call_api(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 306, in call_api
+    return self.__call_api(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 170, in __call_api
+    response_data = self.request(
+                    ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 360, in request
+    return self.rest_client.GET(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/rest_utils.py", line 75, in GET
+    return self.request(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/rest_urllib3.py", line 246, in request
+    r = self.pool_manager.request(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/_request_methods.py", line 135, in request
+    return self.request_encode_url(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='34.36.155.80', port=443): Max retries exceeded with url: /indexes (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '34.36.155.80'. (_ssl.c:1010)")))
+
+2025-10-21 13:20:40 | ERROR    | uvicorn.error | startup:59 | Application startup failed. Exiting.
+2025-10-21 13:20:44 | INFO     | uvicorn.error | _serve:84 | Started server process [2705]
+2025-10-21 13:20:44 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-21 13:20:52 | ERROR    | uvicorn.error | send:121 | Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 790, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 969, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 480, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 524, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/ssl.py", line 1319, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '34.36.155.80'. (_ssl.c:1010)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '34.36.155.80'. (_ssl.c:1010)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/starlette/routing.py", line 694, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 134, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 134, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/main.py", line 21, in lifespan
+    bootstrap_all()
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/pinecone_admin.py", line 29, in bootstrap_all
+    ensure_index(settings.INDEX_THERAPY)
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/pinecone_admin.py", line 13, in ensure_index
+    if not client.has_index(name):
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/pinecone.py", line 393, in has_index
+    return self.db.index.has(name=name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/utils/require_kwargs.py", line 14, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/db_control/resources/sync/index.py", line 214, in has
+    if name in self.list().names():
+               ^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/utils/require_kwargs.py", line 14, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/db_control/resources/sync/index.py", line 200, in list
+    response = self._index_api.list_indexes()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/endpoint.py", line 102, in __call__
+    return self.callable(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/core/openapi/db_control/api/manage_indexes_api.py", line 1161, in __list_indexes
+    return self.call_with_http_info(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/endpoint.py", line 134, in call_with_http_info
+    return self.api_client.call_api(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 306, in call_api
+    return self.__call_api(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 170, in __call_api
+    response_data = self.request(
+                    ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 360, in request
+    return self.rest_client.GET(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/rest_utils.py", line 75, in GET
+    return self.request(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/rest_urllib3.py", line 246, in request
+    r = self.pool_manager.request(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/_request_methods.py", line 135, in request
+    return self.request_encode_url(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='34.36.155.80', port=443): Max retries exceeded with url: /indexes (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '34.36.155.80'. (_ssl.c:1010)")))
+
+2025-10-21 13:20:52 | ERROR    | uvicorn.error | startup:59 | Application startup failed. Exiting.
+2025-10-21 13:21:16 | INFO     | uvicorn.error | _serve:84 | Started server process [2736]
+2025-10-21 13:21:16 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-21 13:24:39 | INFO     | uvicorn.error | _serve:84 | Started server process [3897]
+2025-10-21 13:24:39 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-21 13:24:56 | ERROR    | uvicorn.error | send:121 | Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/socket.py", line 978, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 753, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x118822360>: Failed to resolve 'api.pinecone.io' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/starlette/routing.py", line 694, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 134, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 134, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/main.py", line 21, in lifespan
+    bootstrap_all()
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/pinecone_admin.py", line 29, in bootstrap_all
+    ensure_index(settings.INDEX_THERAPY)
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/pinecone_admin.py", line 13, in ensure_index
+    if not client.has_index(name):
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/pinecone.py", line 393, in has_index
+    return self.db.index.has(name=name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/utils/require_kwargs.py", line 14, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/db_control/resources/sync/index.py", line 214, in has
+    if name in self.list().names():
+               ^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/utils/require_kwargs.py", line 14, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/db_control/resources/sync/index.py", line 200, in list
+    response = self._index_api.list_indexes()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/endpoint.py", line 102, in __call__
+    return self.callable(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/core/openapi/db_control/api/manage_indexes_api.py", line 1161, in __list_indexes
+    return self.call_with_http_info(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/endpoint.py", line 134, in call_with_http_info
+    return self.api_client.call_api(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 306, in call_api
+    return self.__call_api(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 170, in __call_api
+    response_data = self.request(
+                    ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 360, in request
+    return self.rest_client.GET(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/rest_utils.py", line 75, in GET
+    return self.request(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/rest_urllib3.py", line 246, in request
+    r = self.pool_manager.request(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/_request_methods.py", line 135, in request
+    return self.request_encode_url(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.pinecone.io', port=443): Max retries exceeded with url: /indexes (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x118822360>: Failed to resolve 'api.pinecone.io' ([Errno 8] nodename nor servname provided, or not known)"))
+
+2025-10-21 13:24:56 | ERROR    | uvicorn.error | startup:59 | Application startup failed. Exiting.
+2025-10-21 13:25:14 | INFO     | uvicorn.error | _serve:84 | Started server process [4022]
+2025-10-21 13:25:14 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-21 13:25:22 | ERROR    | uvicorn.error | send:121 | Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 790, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 969, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 480, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 524, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/ssl.py", line 1319, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '34.36.155.80'. (_ssl.c:1010)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '34.36.155.80'. (_ssl.c:1010)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/starlette/routing.py", line 694, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 134, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 134, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/main.py", line 21, in lifespan
+    bootstrap_all()
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/pinecone_admin.py", line 29, in bootstrap_all
+    ensure_index(settings.INDEX_THERAPY)
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/pinecone_admin.py", line 13, in ensure_index
+    if not client.has_index(name):
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/pinecone.py", line 393, in has_index
+    return self.db.index.has(name=name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/utils/require_kwargs.py", line 14, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/db_control/resources/sync/index.py", line 214, in has
+    if name in self.list().names():
+               ^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/utils/require_kwargs.py", line 14, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/db_control/resources/sync/index.py", line 200, in list
+    response = self._index_api.list_indexes()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/endpoint.py", line 102, in __call__
+    return self.callable(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/core/openapi/db_control/api/manage_indexes_api.py", line 1161, in __list_indexes
+    return self.call_with_http_info(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/endpoint.py", line 134, in call_with_http_info
+    return self.api_client.call_api(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 306, in call_api
+    return self.__call_api(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 170, in __call_api
+    response_data = self.request(
+                    ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 360, in request
+    return self.rest_client.GET(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/rest_utils.py", line 75, in GET
+    return self.request(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/rest_urllib3.py", line 246, in request
+    r = self.pool_manager.request(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/_request_methods.py", line 135, in request
+    return self.request_encode_url(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='34.36.155.80', port=443): Max retries exceeded with url: /indexes (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '34.36.155.80'. (_ssl.c:1010)")))
+
+2025-10-21 13:25:22 | ERROR    | uvicorn.error | startup:59 | Application startup failed. Exiting.
+2025-10-21 15:33:58 | INFO     | uvicorn.error | _serve:84 | Started server process [1830]
+2025-10-21 15:33:58 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-21 15:34:06 | ERROR    | uvicorn.error | send:121 | Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 790, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 969, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 480, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 524, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/ssl.py", line 1319, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '34.36.155.80'. (_ssl.c:1010)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '34.36.155.80'. (_ssl.c:1010)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/starlette/routing.py", line 694, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 134, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 134, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/main.py", line 21, in lifespan
+    bootstrap_all()
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/pinecone_admin.py", line 29, in bootstrap_all
+    ensure_index(settings.INDEX_THERAPY)
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/pinecone_admin.py", line 13, in ensure_index
+    if not client.has_index(name):
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/pinecone.py", line 393, in has_index
+    return self.db.index.has(name=name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/utils/require_kwargs.py", line 14, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/db_control/resources/sync/index.py", line 214, in has
+    if name in self.list().names():
+               ^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/utils/require_kwargs.py", line 14, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/db_control/resources/sync/index.py", line 200, in list
+    response = self._index_api.list_indexes()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/endpoint.py", line 102, in __call__
+    return self.callable(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/core/openapi/db_control/api/manage_indexes_api.py", line 1161, in __list_indexes
+    return self.call_with_http_info(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/endpoint.py", line 134, in call_with_http_info
+    return self.api_client.call_api(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 306, in call_api
+    return self.__call_api(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 170, in __call_api
+    response_data = self.request(
+                    ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 360, in request
+    return self.rest_client.GET(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/rest_utils.py", line 75, in GET
+    return self.request(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/rest_urllib3.py", line 246, in request
+    r = self.pool_manager.request(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/_request_methods.py", line 135, in request
+    return self.request_encode_url(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='34.36.155.80', port=443): Max retries exceeded with url: /indexes (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '34.36.155.80'. (_ssl.c:1010)")))
+
+2025-10-21 15:34:06 | ERROR    | uvicorn.error | startup:59 | Application startup failed. Exiting.
+2025-10-21 16:48:45 | INFO     | uvicorn.error | _serve:84 | Started server process [5871]
+2025-10-21 16:48:45 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-21 16:48:53 | ERROR    | uvicorn.error | send:121 | Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 790, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 969, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 480, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 524, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/ssl.py", line 1319, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '34.36.155.80'. (_ssl.c:1010)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '34.36.155.80'. (_ssl.c:1010)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/starlette/routing.py", line 694, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 134, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 134, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/main.py", line 21, in lifespan
+    bootstrap_all()
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/pinecone_admin.py", line 29, in bootstrap_all
+    ensure_index(settings.INDEX_THERAPY)
+  File "/Users/usman/Documents/Projects/rag-pipeline/app/pinecone_admin.py", line 13, in ensure_index
+    if not client.has_index(name):
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/pinecone.py", line 393, in has_index
+    return self.db.index.has(name=name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/utils/require_kwargs.py", line 14, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/db_control/resources/sync/index.py", line 214, in has
+    if name in self.list().names():
+               ^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/utils/require_kwargs.py", line 14, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/db_control/resources/sync/index.py", line 200, in list
+    response = self._index_api.list_indexes()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/endpoint.py", line 102, in __call__
+    return self.callable(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/core/openapi/db_control/api/manage_indexes_api.py", line 1161, in __list_indexes
+    return self.call_with_http_info(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/endpoint.py", line 134, in call_with_http_info
+    return self.api_client.call_api(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 306, in call_api
+    return self.__call_api(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 170, in __call_api
+    response_data = self.request(
+                    ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/api_client.py", line 360, in request
+    return self.rest_client.GET(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/rest_utils.py", line 75, in GET
+    return self.request(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/pinecone/openapi_support/rest_urllib3.py", line 246, in request
+    r = self.pool_manager.request(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/_request_methods.py", line 135, in request
+    return self.request_encode_url(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/usman/Documents/Projects/rag-pipeline/.venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='34.36.155.80', port=443): Max retries exceeded with url: /indexes (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '34.36.155.80'. (_ssl.c:1010)")))
+
+2025-10-21 16:48:53 | ERROR    | uvicorn.error | startup:59 | Application startup failed. Exiting.
+2025-10-21 16:52:03 | INFO     | uvicorn.error | _serve:84 | Started server process [5989]
+2025-10-21 16:52:03 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-21 16:52:04 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-21 16:52:10 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-21 16:52:11 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-21 16:52:11 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-21 16:52:11 | INFO     | uvicorn.error | _serve:94 | Finished server process [5989]
+2025-10-21 16:52:11 | INFO     | uvicorn.error | _serve:84 | Started server process [6001]
+2025-10-21 16:52:11 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-21 16:52:20 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-21 16:52:21 | INFO     | uvicorn.error | _serve:84 | Started server process [6012]
+2025-10-21 16:52:21 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-21 16:52:26 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-21 16:52:36 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-21 16:52:36 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-21 16:52:36 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-21 16:52:36 | INFO     | uvicorn.error | _serve:94 | Finished server process [6012]
+2025-10-21 16:52:37 | INFO     | uvicorn.error | _serve:84 | Started server process [6024]
+2025-10-21 16:52:37 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-21 16:52:47 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-21 16:55:15 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-21 16:55:15 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-21 16:55:15 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-21 16:55:15 | INFO     | uvicorn.error | _serve:94 | Finished server process [6024]
+2025-10-21 16:55:21 | INFO     | uvicorn.error | _serve:84 | Started server process [6169]
+2025-10-21 16:55:21 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-21 16:55:30 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-21 16:58:32 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-21 16:58:32 | INFO     | uvicorn.error | _wait_tasks_to_complete:299 | Waiting for connections to close. (CTRL+C to force quit)
+2025-10-21 16:58:32 | INFO     | uvicorn.error | _serve:94 | Finished server process [6169]
+2025-10-21 18:59:40 | INFO     | uvicorn.error | _serve:84 | Started server process [1450]
+2025-10-21 18:59:40 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-21 18:59:53 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-21 19:11:25 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-21 19:11:25 | INFO     | uvicorn.error | _wait_tasks_to_complete:299 | Waiting for connections to close. (CTRL+C to force quit)
+2025-10-21 19:11:25 | INFO     | uvicorn.error | _serve:94 | Finished server process [1450]
+2025-10-21 19:11:29 | INFO     | uvicorn.error | _serve:84 | Started server process [1789]
+2025-10-21 19:11:29 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-21 19:11:31 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-21 19:18:02 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-21 19:18:02 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-21 19:18:02 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-21 19:18:02 | INFO     | uvicorn.error | _serve:94 | Finished server process [1789]
+2025-10-21 19:18:03 | INFO     | uvicorn.error | _serve:84 | Started server process [1930]
+2025-10-21 19:18:03 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-21 19:18:12 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-21 19:18:13 | INFO     | uvicorn.error | _serve:84 | Started server process [1950]
+2025-10-21 19:18:13 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-21 19:18:20 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-21 19:18:21 | INFO     | uvicorn.error | _serve:84 | Started server process [1956]
+2025-10-21 19:18:21 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-21 19:18:31 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-21 19:18:31 | INFO     | uvicorn.error | _serve:84 | Started server process [1969]
+2025-10-21 19:18:31 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-21 19:18:40 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-21 19:18:41 | INFO     | uvicorn.error | _serve:84 | Started server process [1985]
+2025-10-21 19:18:41 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-21 19:18:53 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-21 19:18:54 | INFO     | uvicorn.error | _serve:84 | Started server process [1995]
+2025-10-21 19:18:54 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-21 19:19:01 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-21 19:19:02 | INFO     | uvicorn.error | _serve:84 | Started server process [2026]
+2025-10-21 19:19:02 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-21 19:19:15 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-21 19:19:16 | INFO     | uvicorn.error | _serve:84 | Started server process [2050]
+2025-10-21 19:19:16 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-21 19:19:28 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-21 19:21:41 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-21 19:21:41 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-21 19:21:41 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-21 19:21:41 | INFO     | uvicorn.error | _serve:94 | Finished server process [2050]
+2025-10-28 00:04:41 | INFO     | uvicorn.error | _serve:84 | Started server process [16254]
+2025-10-28 00:04:41 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-28 00:04:46 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-28 00:10:19 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-28 00:10:19 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-28 00:10:19 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-28 00:10:19 | INFO     | uvicorn.error | _serve:94 | Finished server process [16254]
+2025-10-28 00:10:20 | INFO     | uvicorn.error | _serve:84 | Started server process [20267]
+2025-10-28 00:10:20 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-28 00:10:21 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-28 00:10:22 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-28 00:10:22 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-28 00:10:22 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-28 00:10:22 | INFO     | uvicorn.error | _serve:94 | Finished server process [20267]
+2025-10-28 00:10:23 | INFO     | uvicorn.error | _serve:84 | Started server process [20322]
+2025-10-28 00:10:23 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-28 00:10:32 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-28 00:10:33 | INFO     | uvicorn.error | _serve:84 | Started server process [20438]
+2025-10-28 00:10:33 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-28 00:10:38 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-28 00:10:39 | INFO     | uvicorn.error | _serve:84 | Started server process [20505]
+2025-10-28 00:10:39 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-28 00:10:44 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-28 00:36:09 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-28 00:36:09 | INFO     | uvicorn.error | _wait_tasks_to_complete:299 | Waiting for connections to close. (CTRL+C to force quit)
+2025-10-28 00:36:18 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-28 00:36:18 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-28 00:36:18 | INFO     | uvicorn.error | _serve:94 | Finished server process [20505]
+2025-10-28 00:36:19 | INFO     | uvicorn.error | _serve:84 | Started server process [37995]
+2025-10-28 00:36:19 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-28 00:36:23 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-28 00:36:24 | INFO     | uvicorn.error | _serve:84 | Started server process [38057]
+2025-10-28 00:36:24 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-28 00:36:27 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-28 00:55:44 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-28 00:55:44 | INFO     | uvicorn.error | _serve:94 | Finished server process [38057]
+2025-10-28 12:49:35 | INFO     | uvicorn.error | _serve:84 | Started server process [66292]
+2025-10-28 12:49:35 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-28 12:49:37 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-28 13:22:27 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-28 13:22:27 | INFO     | uvicorn.error | _serve:94 | Finished server process [66292]
+2025-10-28 23:24:18 | INFO     | uvicorn.error | _serve:84 | Started server process [2143]
+2025-10-28 23:24:18 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-28 23:24:22 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-29 00:09:51 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-29 00:09:52 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-29 00:09:52 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-29 00:09:52 | INFO     | uvicorn.error | _serve:94 | Finished server process [2143]
+2025-10-29 17:35:45 | INFO     | uvicorn.error | _serve:84 | Started server process [1814]
+2025-10-29 17:35:45 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-29 17:35:51 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-29 18:22:57 | INFO     | uvicorn.error | _serve:84 | Started server process [34895]
+2025-10-29 18:22:57 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-29 18:23:04 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-29 18:25:15 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-29 18:25:16 | INFO     | uvicorn.error | shutdown:67 | Waiting for application shutdown.
+2025-10-29 18:25:16 | INFO     | uvicorn.error | shutdown:76 | Application shutdown complete.
+2025-10-29 18:25:16 | INFO     | uvicorn.error | _serve:94 | Finished server process [34895]
+2025-10-30 04:31:38 | INFO     | uvicorn.error | _serve:84 | Started server process [1562]
+2025-10-30 04:31:38 | INFO     | uvicorn.error | startup:48 | Waiting for application startup.
+2025-10-30 04:31:40 | INFO     | uvicorn.error | startup:62 | Application startup complete.
+2025-10-30 05:15:52 | INFO     | uvicorn.error | shutdown:264 | Shutting down
+2025-10-30 05:15:53 | INFO     | uvicorn.error | _serve:94 | Finished server process [1562]

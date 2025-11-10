@@ -21,6 +21,15 @@ class Settings(BaseSettings):
     INDEX_THERAPY: str = "deidra-therapy"
     INDEX_HEALTH: str = "deidra-health-fitness"
     INDEX_LITERATURE: str = "deidra-literature"
+    
+    # JWT Configuration
+    JWT_SECRET_KEY: str = "your-secret-key-change-this-in-production"
+    JWT_ALGORITHM: str = "HS256"
+    JWT_ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24 * 10  # 10 days
+    JWT_REFRESH_TOKEN_EXPIRE_DAYS: int = 10  # 10 days
+
+    # Database
+    DATABASE_URL: str = "sqlite:///./app.db"
 
 
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")

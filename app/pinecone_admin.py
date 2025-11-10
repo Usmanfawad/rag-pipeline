@@ -1,8 +1,15 @@
 from pinecone import Pinecone, ServerlessSpec
 from app.settings import settings
+import socket
 
 def pc():
-    print(settings.PINECONE_API_KEY)
+    # Preflight DNS check to provide a helpful error if DNS is misconfigured
+    try:
+        socket.gethostbyname("api.pinecone.io")
+    except socket.gaierror as err:
+        raise RuntimeError(
+            "DNS cannot resolve api.pinecone.io. Switch your DNS to Google (8.8.8.8/8.8.4.4) or add a hosts entry."
+        ) from err
     return Pinecone(api_key=settings.PINECONE_API_KEY)
 
 def ensure_index(name: str, dimension: int = 1536, metric: str = "cosine"):

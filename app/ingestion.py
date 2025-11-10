@@ -765,6 +765,7 @@ async def ingest_uploaded_file(
     file_content: bytes,
     filename: str,
     namespace: Optional[str] = None,
+    metadata: Optional[dict] = None,
 ) -> int:
     """Ingest a single uploaded file."""
     import tempfile
@@ -811,15 +812,22 @@ async def ingest_uploaded_file(
         if not docs:
             return 0
         
-        # Update metadata with original filename
+        # Update metadata with original filename and additional metadata
         for d in docs:
             d.metadata = d.metadata or {}
             d.metadata.update({
                 "source": filename,
                 "domain": domain,
                 "ingestion_timestamp": pd.Timestamp.now().isoformat(),
-                "namespace": namespace or "default"
+                "namespace": namespace or "default",
+                "filename": filename,
+                "file_type": Path(filename).suffix.lower(),
+                "document_id": f"doc_{hashlib.md5(filename.encode()).hexdigest()[:8]}"
             })
+            
+            # Add any additional metadata passed in
+            if metadata:
+                d.metadata.update(metadata)
         
         # Split documents
         splits = _split_docs(docs)

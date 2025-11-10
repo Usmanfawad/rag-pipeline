@@ -14,16 +14,19 @@ from app.model_manager import create_chat_model, get_model_info, suggest_namespa
 Domain = Literal["therapy", "health_fitness", "literature"]
 
 # Enhanced system prompt for better context understanding
-SYSTEM = """You are a precise and knowledgeable assistant specialized in analyzing documents and data.
+SYSTEM = """You are a precise and knowledgeable assistant specialized in analyzing user-uploaded documents and data.
 
 INSTRUCTIONS:
 - Use the provided CONTEXT to answer the QUESTION accurately and comprehensively
+- The context contains documents uploaded by the user, organized by domain and document collections
 - If the context contains partial information, provide what you can and clearly state what information is missing
-- If no relevant information is found, clearly state that you don't have sufficient information in the provided dataset
-- Always cite your sources using the format: (source: <filename or source>)
+- If no relevant information is found, clearly state that you don't have sufficient information in the user's uploaded documents
+- Do not ask the user to provide more information or context
+- Always cite your sources using the format: (source: <document name or filename>)
 - When dealing with structured data (CSV/Excel), interpret the data meaningfully
 - For technical documents, explain concepts clearly while maintaining accuracy
 - Preserve important details like statistics, dates, names, and specific findings
+- Be aware that the information comes from the user's personal document collection
 
 RESPONSE GUIDELINES:
 - Be comprehensive but concise
@@ -31,6 +34,7 @@ RESPONSE GUIDELINES:
 - Highlight key findings or important information
 - If data contains numbers or statistics, present them clearly
 - Maintain professional tone appropriate for the domain
+- Acknowledge when information comes from the user's specific document collection
 """
 
 PROMPT = ChatPromptTemplate.from_messages(
@@ -59,13 +63,22 @@ def _format_context(docs: List[Document]) -> str:
     for i, d in enumerate(docs, 1):
         # Extract source information
         source = d.metadata.get("source", "Unknown source")
-        filetype = d.metadata.get("filetype", "")
+        filetype = d.metadata.get("filetype") or d.metadata.get("file_type", "")
         page = d.metadata.get("page")
         sheet = d.metadata.get("sheet")
         slide = d.metadata.get("slide")
         
-        # Create source identifier
-        source_id = source
+        # Extract additional metadata for better context
+        filename = d.metadata.get("filename", source)
+        document_name = d.metadata.get("document_name")
+        domain = d.metadata.get("domain")
+        
+        # Create source identifier with better context
+        source_id = filename if filename != "Unknown source" else source
+        if document_name and document_name != filename:
+            source_id = f"{document_name} ({filename})"
+        
+        # Add page/sheet/slide information
         if page is not None:
             source_id += f", page {page}"
         elif sheet:
@@ -221,9 +234,16 @@ def _retrieve_with_hybrid_strategy(
     3. MMR for diversity
     4. Metadata filtering
     """
+    from app.log import app_logger
+    import time
+    from concurrent.futures import ThreadPoolExecutor, TimeoutError as FuturesTimeout
+    
+    start_time = time.time()
+    app_logger.info(f"Starting retrieval for query: '{query[:100]}...'")
     
     # Preprocess the query
     processed_query = _preprocess_query(query)
+    app_logger.info(f"Query preprocessed in {time.time() - start_time:.2f}s")
     
     # Strategy 1: Direct MMR search for diversity
     retriever = vectorstore.as_retriever(
@@ -235,22 +255,55 @@ def _retrieve_with_hybrid_strategy(
         }
     )
     
-    docs = retriever.invoke(processed_query)
+    app_logger.info(f"About to call retriever.invoke() at {time.time() - start_time:.2f}s")
+    
+    # Add timeout to the main retrieval
+    def _retrieve_with_timeout():
+        return retriever.invoke(processed_query)
+    
+    try:
+        with ThreadPoolExecutor(max_workers=1) as executor:
+            future = executor.submit(_retrieve_with_timeout)
+            docs = future.result(timeout=15.0)  # 15 second timeout for main retrieval
+            app_logger.info(f"Retriever returned {len(docs)} docs in {time.time() - start_time:.2f}s")
+    except FuturesTimeout:
+        app_logger.error(f"Main retrieval timed out after 15s for query: '{query[:100]}...'")
+        return []
+    except Exception as e:
+        app_logger.error(f"Main retrieval failed: {str(e)}")
+        return []
     
     # Strategy 2: If we have few results or they seem poor, try query rewriting
     if len(docs) < k // 2:
-        rewritten_query = _rewrite_query(processed_query, domain)
-        additional_docs = retriever.invoke(rewritten_query)
-        
-        # Merge results, avoiding duplicates
-        seen_content = {doc.page_content for doc in docs}
-        for doc in additional_docs:
-            if doc.page_content not in seen_content and len(docs) < k * 2:
-                docs.append(doc)
-                seen_content.add(doc.page_content)
+        app_logger.info(f"Few results ({len(docs)}), trying query rewriting...")
+        try:
+            rewritten_query = _rewrite_query(processed_query, domain)
+            app_logger.info(f"Query rewritten in {time.time() - start_time:.2f}s")
+            
+            # Add timeout to rewritten query retrieval
+            def _retrieve_rewritten():
+                return retriever.invoke(rewritten_query)
+            
+            with ThreadPoolExecutor(max_workers=1) as executor:
+                future = executor.submit(_retrieve_rewritten)
+                additional_docs = future.result(timeout=10.0)  # 10 second timeout for rewritten query
+                
+                # Merge results, avoiding duplicates
+                seen_content = {doc.page_content for doc in docs}
+                for doc in additional_docs:
+                    if doc.page_content not in seen_content and len(docs) < k * 2:
+                        docs.append(doc)
+                        seen_content.add(doc.page_content)
+                        
+                app_logger.info(f"Rewritten query added {len(additional_docs)} docs in {time.time() - start_time:.2f}s")
+        except FuturesTimeout:
+            app_logger.warning(f"Query rewriting timed out, continuing with {len(docs)} docs")
+        except Exception as e:
+            app_logger.warning(f"Query rewriting failed: {str(e)}, continuing with {len(docs)} docs")
     
     # Strategy 3: Score-based filtering if supported
     try:
+        app_logger.info("Trying score-based filtering...")
         # Get similarity scores to filter low-quality results
         docs_with_scores = vectorstore.similarity_search_with_score(
             processed_query, 
@@ -268,9 +321,11 @@ def _retrieve_with_hybrid_strategy(
                 break
         
         if good_docs:
+            app_logger.info(f"Score filtering returned {len(good_docs)} docs in {time.time() - start_time:.2f}s")
             return good_docs
             
-    except Exception:
+    except Exception as e:
+        app_logger.warning(f"Score filtering not supported or failed: {str(e)}")
         # If scoring isn't supported, continue with existing docs
         pass
     
@@ -292,6 +347,7 @@ def _retrieve_with_hybrid_strategy(
         if doc not in final_docs and len(final_docs) < k:
             final_docs.append(doc)
     
+    app_logger.info(f"Final retrieval completed with {len(final_docs)} docs in {time.time() - start_time:.2f}s")
     return final_docs[:k]
 
 
@@ -312,6 +368,7 @@ def build_rag_chain(
     embeddings = OpenAIEmbeddings(
         model=settings.OPENAI_EMBEDDING_MODEL,
         api_key=settings.OPENAI_API_KEY,
+        request_timeout=20.0,  # 20 second timeout for embeddings
     )
 
     vectorstore = PineconeVectorStore(
@@ -322,13 +379,19 @@ def build_rag_chain(
     )
 
     def _retrieve(query: str) -> List[Document]:
-        return _retrieve_with_hybrid_strategy(
+        from app.log import app_logger
+        import time
+        start = time.time()
+        app_logger.info(f"Starting document retrieval for query: '{query[:50]}...'")
+        docs = _retrieve_with_hybrid_strategy(
             vectorstore, 
             query, 
             domain, 
             k=k, 
             score_threshold=0.3
         )
+        app_logger.info(f"Retrieved {len(docs)} documents in {time.time() - start:.2f}s")
+        return docs
 
     # Build enhanced LCEL chain
     retrieve_node = RunnableLambda(lambda q: _retrieve(q))
@@ -343,7 +406,8 @@ def build_rag_chain(
         llm = ChatOpenAI(
             api_key=settings.OPENAI_API_KEY, 
             model=settings.DEFAULT_CHAT_MODEL, 
-            temperature=temperature
+            temperature=temperature,
+            request_timeout=30.0  # 30 second timeout for LLM calls
         )
 
     if peek_context:
@@ -394,15 +458,31 @@ def build_rag_chain(
         )
         return chain
 
-    # Normal production chain
+    # Normal production chain with timing
+    def _timed_llm_call(inputs):
+        from app.log import app_logger
+        import time
+        start = time.time()
+        app_logger.info(f"Starting LLM generation for question: '{inputs['question'][:50]}...'")
+        
+        # Format context
+        context = fmt_context_node.invoke(inputs["context"])
+        app_logger.info(f"Context formatted in {time.time() - start:.2f}s")
+        
+        # Generate response
+        response = (PROMPT | llm | StrOutputParser()).invoke({
+            "context": context,
+            "question": inputs["question"]
+        })
+        app_logger.info(f"LLM response generated in {time.time() - start:.2f}s")
+        return response
+    
     chain = (
         {
-            "context": RunnablePassthrough() | retrieve_node | fmt_context_node,
+            "context": RunnablePassthrough() | retrieve_node,
             "question": RunnablePassthrough(),
         }
-        | PROMPT
-        | llm
-        | StrOutputParser()
+        | RunnableLambda(_timed_llm_call)
     )
     return chain
 
@@ -412,6 +492,7 @@ def get_available_sources(domain: Domain, namespace: Optional[str] = None) -> Di
     embeddings = OpenAIEmbeddings(
         model=settings.OPENAI_EMBEDDING_MODEL,
         api_key=settings.OPENAI_API_KEY,
+        request_timeout=20.0,  # 20 second timeout for embeddings
     )
 
     vectorstore = PineconeVectorStore(
