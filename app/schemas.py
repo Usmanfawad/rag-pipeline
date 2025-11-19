@@ -128,3 +128,13 @@ class DocumentsListResponse(BaseModel):
     total_chunks: int
     documents: List[DocumentInfo]
     message: str
+
+
+class AllDocumentsListResponse(BaseModel):
+    success: bool
+    user_id: int
+    total_documents: int
+    total_chunks: int
+    document_names: List[str]  # List of all document filenames across all domains
+    domains: Dict[str, Dict[str, Any]]  # domain -> {total_documents, total_chunks, documents}
+    message: str

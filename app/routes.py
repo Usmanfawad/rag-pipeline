@@ -4,7 +4,7 @@ from datetime import datetime
 
 from fastapi import APIRouter, UploadFile, File, HTTPException, Form, Depends
 
-from app.schemas import IngestRequest, ChatRequest, CompareRequest, FileUploadResponse, DocumentDeleteRequest, DocumentDeleteResponse, DocumentsListResponse, DocumentInfo
+from app.schemas import IngestRequest, ChatRequest, CompareRequest, FileUploadResponse, DocumentDeleteRequest, DocumentDeleteResponse, DocumentsListResponse, DocumentInfo, AllDocumentsListResponse
 from app.auth import User, get_current_active_user, get_user_namespace
 from app.ingestion import ingest_folder, ingest_uploaded_file
 from app.rag_chain import build_rag_chain, get_available_sources
@@ -611,6 +611,132 @@ def get_user_documents(
         
     except Exception as e:
         app_logger.error(f"Get documents error for user {current_user.id}: {str(e)}")
+        raise HTTPException(
+            status_code=500, 
+            detail=f"Failed to retrieve documents: {str(e)}"
+        )
+
+
+@router.get("/documents", response_model=AllDocumentsListResponse)
+def get_all_documents(
+    current_user: User = Depends(get_current_active_user),
+    user_namespace: str = Depends(get_user_namespace)
+):
+    """Get all documents for the authenticated user across all domains."""
+    try:
+        from pinecone import Pinecone
+        from app.ingestion import _index_name
+        from collections import defaultdict
+        
+        app_logger.info(
+            f"User {current_user.email} (ID: {current_user.id}) requesting all documents from vector store"
+        )
+        
+        # Connect to Pinecone
+        pc = Pinecone(api_key=settings.PINECONE_API_KEY)
+        
+        # Query all domains
+        domains = ["therapy", "health_fitness", "literature"]
+        all_documents_by_domain = {}
+        total_documents = 0
+        total_chunks = 0
+        all_document_names = []
+        
+        for domain in domains:
+            try:
+                index = pc.Index(_index_name(domain))
+                
+                # Query all vectors in the user's namespace
+                dummy_query = [0.0] * 1536  # OpenAI embedding dimension
+                
+                query_response = index.query(
+                    vector=dummy_query,
+                    top_k=10000,  # High limit to get all documents
+                    namespace=user_namespace,
+                    include_metadata=True
+                )
+                
+                # Group chunks by document ID
+                document_chunks = defaultdict(list)
+                domain_chunks = 0
+                
+                for match in query_response.matches:
+                    metadata = match.metadata or {}
+                    doc_id = metadata.get('document_id', 'unknown')
+                    
+                    document_chunks[doc_id].append({
+                        'chunk_id': match.id,
+                        'metadata': metadata
+                    })
+                    domain_chunks += 1
+                
+                # Create document info
+                documents = []
+                for doc_id, chunks in document_chunks.items():
+                    # Get metadata from first chunk (should be consistent across chunks)
+                    first_chunk_metadata = chunks[0]['metadata']
+                    
+                    documents.append(DocumentInfo(
+                        id=doc_id,
+                        filename=first_chunk_metadata.get('filename', 'Unknown'),
+                        file_type=first_chunk_metadata.get('file_type', 'Unknown'),
+                        chunk_count=len(chunks),
+                        metadata={
+                            'upload_date': first_chunk_metadata.get('upload_date'),
+                            'file_size': first_chunk_metadata.get('file_size'),
+                            'source': first_chunk_metadata.get('source', 'uploaded'),
+                            'user_id': first_chunk_metadata.get('user_id'),
+                            'user_email': first_chunk_metadata.get('user_email'),
+                            'document_name': first_chunk_metadata.get('document_name'),
+                            'domain': first_chunk_metadata.get('domain'),
+                            'ingestion_timestamp': first_chunk_metadata.get('ingestion_timestamp')
+                        }
+                    ))
+                
+                # Sort documents by filename
+                documents.sort(key=lambda x: x.filename)
+                
+                # Collect document names
+                domain_document_names = [doc.filename for doc in documents]
+                all_document_names.extend(domain_document_names)
+                
+                all_documents_by_domain[domain] = {
+                    'total_documents': len(documents),
+                    'total_chunks': domain_chunks,
+                    'documents': documents
+                }
+                
+                total_documents += len(documents)
+                total_chunks += domain_chunks
+                
+            except Exception as e:
+                app_logger.warning(f"Could not retrieve documents from domain {domain}: {str(e)}")
+                all_documents_by_domain[domain] = {
+                    'total_documents': 0,
+                    'total_chunks': 0,
+                    'documents': [],
+                    'error': str(e)
+                }
+        
+        # Sort all document names
+        all_document_names.sort()
+        
+        app_logger.info(
+            f"Found {total_documents} documents with {total_chunks} total chunks for user {current_user.id} across all domains"
+        )
+        
+        return AllDocumentsListResponse(
+            success=True,
+            user_id=current_user.id,
+            total_documents=total_documents,
+            total_chunks=total_chunks,
+            document_names=all_document_names,
+            domains=all_documents_by_domain,
+            message=f"Found {total_documents} document(s) with {total_chunks} total chunk(s) across all domains"
+        )
+        
+    except Exception as e:
+        app_logger.error(f"Get all documents error for user {current_user.id}: {str(e)}")
         raise HTTPException(
             status_code=500, 
             detail=f"Failed to retrieve documents: {str(e)}"
