@@ -1955,3 +1955,37 @@ lib/api.ts (54:13...'
 2025-11-20 00:54:32 | [32mINFO[0m | rag_pipeline | log_shutdown:261 | RAG Pipeline Server Shutting Down
 2025-11-20 00:54:32 | [32mINFO[0m | rag_pipeline | log_shutdown:262 | Timestamp: 2025-11-20 00:54:32
 2025-11-20 00:54:32 | [32mINFO[0m | rag_pipeline | log_shutdown:263 | ================================================================================
+2025-11-20 01:20:47 | [32mINFO[0m | rag_pipeline | log_startup:251 | ================================================================================
+2025-11-20 01:20:47 | [32mINFO[0m | rag_pipeline | log_startup:252 | RAG Pipeline Server Starting
+2025-11-20 01:20:47 | [32mINFO[0m | rag_pipeline | log_startup:253 | Timestamp: 2025-11-20 01:20:47
+2025-11-20 01:20:47 | [32mINFO[0m | rag_pipeline | log_startup:254 | Logs Directory: /Users/usman/Documents/Projects/rag-pipeline/logs
+2025-11-20 01:20:47 | [32mINFO[0m | rag_pipeline | log_startup:255 | ================================================================================
+2025-11-20 01:21:36 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /auth/get_user [127.0.0.1]
+2025-11-20 01:21:36 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /auth/get_user -> 200 (20.18ms) [127.0.0.1]
+2025-11-20 01:21:36 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /chat/models [127.0.0.1]
+2025-11-20 01:21:36 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2025-11-20 01:21:36 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2025-11-20 01:21:36 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /chat/models -> 200 (20.25ms) [127.0.0.1]
+2025-11-20 01:21:36 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /chat/models [127.0.0.1]
+2025-11-20 01:21:36 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /chat/models -> 200 (9.29ms) [127.0.0.1]
+2025-11-20 01:21:46 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 2 documents with 63 total chunks for user 1 across all domains
+2025-11-20 01:21:46 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (9610.91ms) [127.0.0.1]
+2025-11-20 01:21:46 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2025-11-20 01:21:46 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2025-11-20 01:21:47 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: POST /chat [127.0.0.1]
+2025-11-20 01:21:47 | [32mINFO[0m | rag_pipeline | chat:293 | User ufawad0@gmail.com (ID: 1) asking question in domain 'therapy'
+2025-11-20 01:21:48 | [32mINFO[0m | rag_pipeline | _retrieve:385 | Starting document retrieval for query: 'What are key risks mentioned?...'
+2025-11-20 01:21:48 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:242 | Starting retrieval for query: 'What are key risks mentioned?...'
+2025-11-20 01:21:48 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:246 | Query preprocessed in 0.00s
+2025-11-20 01:21:48 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:258 | About to call retriever.invoke() at 0.00s
+2025-11-20 01:21:50 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 2 documents with 63 total chunks for user 1 across all domains
+2025-11-20 01:21:50 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (4003.80ms) [127.0.0.1]
+2025-11-20 01:21:54 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:268 | Retriever returned 5 docs in 5.87s
+2025-11-20 01:21:54 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:306 | Trying score-based filtering...
+2025-11-20 01:21:54 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:350 | Final retrieval completed with 5 docs in 6.83s
+2025-11-20 01:21:54 | [32mINFO[0m | rag_pipeline | _retrieve:393 | Retrieved 5 documents in 6.84s
+2025-11-20 01:21:54 | [32mINFO[0m | rag_pipeline | _timed_llm_call:466 | Starting LLM generation for question: 'What are key risks mentioned?...'
+2025-11-20 01:21:54 | [32mINFO[0m | rag_pipeline | _timed_llm_call:470 | Context formatted in 0.00s
+2025-11-20 01:22:01 | [32mINFO[0m | rag_pipeline | _timed_llm_call:477 | LLM response generated in 6.39s
+2025-11-20 01:22:01 | [32mINFO[0m | rag_pipeline | chat:308 | Chat completed for user 1 in domain 'therapy'
+2025-11-20 01:22:01 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: POST /chat -> 200 (13387.76ms) [127.0.0.1]
