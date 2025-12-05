@@ -1989,3 +1989,7 @@ lib/api.ts (54:13...'
 2025-11-20 01:22:01 | [32mINFO[0m | rag_pipeline | _timed_llm_call:477 | LLM response generated in 6.39s
 2025-11-20 01:22:01 | [32mINFO[0m | rag_pipeline | chat:308 | Chat completed for user 1 in domain 'therapy'
 2025-11-20 01:22:01 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: POST /chat -> 200 (13387.76ms) [127.0.0.1]
+2025-11-20 01:43:14 | [32mINFO[0m | rag_pipeline | log_shutdown:260 | ================================================================================
+2025-11-20 01:43:14 | [32mINFO[0m | rag_pipeline | log_shutdown:261 | RAG Pipeline Server Shutting Down
+2025-11-20 01:43:14 | [32mINFO[0m | rag_pipeline | log_shutdown:262 | Timestamp: 2025-11-20 01:43:14
+2025-11-20 01:43:14 | [32mINFO[0m | rag_pipeline | log_shutdown:263 | ================================================================================

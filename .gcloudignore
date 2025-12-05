@@ -1,4 +1,9 @@
-# Python
+# This file specifies files that are *not* uploaded to Google Cloud
+# using gcloud. It follows the same syntax as .gitignore
+
+.gcloudignore
+.git
+.gitignore
 __pycache__/
 *.py[cod]
 *$py.class
@@ -7,58 +12,34 @@ __pycache__/
 *.egg-info/
 dist/
 build/
-
-# Virtual environments
 venv/
 env/
 ENV/
-
-# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
-
-# Git
-.git/
-.gitignore
-
-# Logs
+.DS_Store
+Thumbs.db
 logs/
 *.log
-
-# Database
 *.db
 *.sqlite
 *.sqlite3
-
-# Environment files
 .env
 .env.local
 .env.*.local
-
-# Documentation
 README.md
 README_ENHANCED.md
 LINKEDIN_POST.md
-
-# Data files (if not needed in production)
 data/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Testing
 .pytest_cache/
 .coverage
 htmlcov/
-
-# Docker
-Dockerfile
-.dockerignore
-
-
-
+test-docker.sh
+deploy.sh
+deploy-to-cloud-run.sh
+DEPLOYMENT.md
+QUICK_DEPLOY.md
 
