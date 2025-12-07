@@ -15,15 +15,14 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 COPY pyproject.toml ./
 
 # Create minimal app structure for package installation
-# app/__init__.py is needed for package imports (from app.xxx)
-RUN mkdir -p app && echo "" > app/__init__.py
+RUN mkdir -p app && touch app/__init__.py
 
 # Install dependencies using pip
 # This layer will be cached unless pyproject.toml changes
 RUN pip install --no-cache-dir --upgrade pip && \
     pip install --no-cache-dir .
 
-# Copy application code (preserves app/__init__.py created above)
+# Copy application code (overwrites the minimal structure)
 # This layer will be rebuilt when app code changes
 COPY app/ ./app/
 

@@ -1993,3 +1993,32 @@ lib/api.ts (54:13...'
 2025-11-20 01:43:14 | [32mINFO[0m | rag_pipeline | log_shutdown:261 | RAG Pipeline Server Shutting Down
 2025-11-20 01:43:14 | [32mINFO[0m | rag_pipeline | log_shutdown:262 | Timestamp: 2025-11-20 01:43:14
 2025-11-20 01:43:14 | [32mINFO[0m | rag_pipeline | log_shutdown:263 | ================================================================================
+2025-12-05 18:39:32 | [32mINFO[0m | rag_pipeline | log_startup:251 | ================================================================================
+2025-12-05 18:39:32 | [32mINFO[0m | rag_pipeline | log_startup:252 | RAG Pipeline Server Starting
+2025-12-05 18:39:32 | [32mINFO[0m | rag_pipeline | log_startup:253 | Timestamp: 2025-12-05 18:39:32
+2025-12-05 18:39:32 | [32mINFO[0m | rag_pipeline | log_startup:254 | Logs Directory: /Users/usman/Documents/Projects/rag-pipeline/logs
+2025-12-05 18:39:32 | [32mINFO[0m | rag_pipeline | log_startup:255 | ================================================================================
+2025-12-05 18:39:40 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET / [127.0.0.1]
+2025-12-05 18:39:40 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET / -> 404 (0.80ms) [127.0.0.1]
+2025-12-05 18:39:40 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET / [127.0.0.1]
+2025-12-05 18:39:40 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET / -> 404 (1.08ms) [127.0.0.1]
+2025-12-05 18:39:40 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET / [127.0.0.1]
+2025-12-05 18:39:40 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET / -> 404 (1.10ms) [127.0.0.1]
+2025-12-05 18:39:43 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET / [127.0.0.1]
+2025-12-05 18:39:43 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET / -> 404 (1.37ms) [127.0.0.1]
+2025-12-05 18:39:44 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET / [127.0.0.1]
+2025-12-05 18:39:44 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET / -> 404 (1.34ms) [127.0.0.1]
+2025-12-05 18:39:44 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET / [127.0.0.1]
+2025-12-05 18:39:44 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET / -> 404 (0.71ms) [127.0.0.1]
+2025-12-05 18:39:55 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET / [127.0.0.1]
+2025-12-05 18:39:55 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET / -> 404 (1.39ms) [127.0.0.1]
+2025-12-05 18:39:55 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /favicon.ico [127.0.0.1]
+2025-12-05 18:39:55 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /favicon.ico -> 404 (1.91ms) [127.0.0.1]
+2025-12-05 18:39:57 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /docs [127.0.0.1]
+2025-12-05 18:39:57 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /docs -> 200 (1.13ms) [127.0.0.1]
+2025-12-05 18:39:58 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /openapi.json [127.0.0.1]
+2025-12-05 18:39:58 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /openapi.json -> 200 (18.10ms) [127.0.0.1]
+2025-12-05 18:40:16 | [32mINFO[0m | rag_pipeline | log_shutdown:260 | ================================================================================
+2025-12-05 18:40:16 | [32mINFO[0m | rag_pipeline | log_shutdown:261 | RAG Pipeline Server Shutting Down
+2025-12-05 18:40:16 | [32mINFO[0m | rag_pipeline | log_shutdown:262 | Timestamp: 2025-12-05 18:40:16
+2025-12-05 18:40:16 | [32mINFO[0m | rag_pipeline | log_shutdown:263 | ================================================================================
