@@ -2022,3 +2022,323 @@ lib/api.ts (54:13...'
 2025-12-05 18:40:16 | [32mINFO[0m | rag_pipeline | log_shutdown:261 | RAG Pipeline Server Shutting Down
 2025-12-05 18:40:16 | [32mINFO[0m | rag_pipeline | log_shutdown:262 | Timestamp: 2025-12-05 18:40:16
 2025-12-05 18:40:16 | [32mINFO[0m | rag_pipeline | log_shutdown:263 | ================================================================================
+2026-01-05 18:54:56 | [32mINFO[0m | rag_pipeline | log_startup:251 | ================================================================================
+2026-01-05 18:54:56 | [32mINFO[0m | rag_pipeline | log_startup:252 | RAG Pipeline Server Starting
+2026-01-05 18:54:56 | [32mINFO[0m | rag_pipeline | log_startup:253 | Timestamp: 2026-01-05 18:54:56
+2026-01-05 18:54:56 | [32mINFO[0m | rag_pipeline | log_startup:254 | Logs Directory: /Users/usman/Documents/Projects/rag-pipeline/logs
+2026-01-05 18:54:56 | [32mINFO[0m | rag_pipeline | log_startup:255 | ================================================================================
+2026-01-05 18:55:21 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /auth/get_user [127.0.0.1]
+2026-01-05 18:55:21 | [33mWARNING[0m | rag_pipeline | verify_token:122 | JWT verification error: Signature has expired.
+2026-01-05 18:55:21 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /auth/get_user -> 401 (16.17ms) [127.0.0.1]
+2026-01-05 18:55:22 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /docs [127.0.0.1]
+2026-01-05 18:55:22 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /docs -> 200 (1.42ms) [127.0.0.1]
+2026-01-05 18:55:22 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /openapi.json [127.0.0.1]
+2026-01-05 18:55:22 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /openapi.json -> 200 (9.14ms) [127.0.0.1]
+2026-01-05 18:55:27 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: POST /auth/login [127.0.0.1]
+2026-01-05 18:55:27 | [33mWARNING[0m | rag_pipeline | authenticate_user:61 | Failed login attempt for: ufawad0@gmail.com
+2026-01-05 18:55:27 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: POST /auth/login -> 401 (213.75ms) [127.0.0.1]
+2026-01-05 18:55:46 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /auth/get_user [127.0.0.1]
+2026-01-05 18:55:46 | [33mWARNING[0m | rag_pipeline | verify_token:122 | JWT verification error: Signature has expired.
+2026-01-05 18:55:46 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /auth/get_user -> 401 (5.53ms) [127.0.0.1]
+2026-01-05 18:55:50 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /auth/get_user [127.0.0.1]
+2026-01-05 18:55:50 | [33mWARNING[0m | rag_pipeline | verify_token:122 | JWT verification error: Signature has expired.
+2026-01-05 18:55:50 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /auth/get_user -> 401 (1.30ms) [127.0.0.1]
+2026-01-05 19:00:16 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: POST /auth/register [127.0.0.1]
+2026-01-05 19:00:16 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: POST /auth/register -> 422 (19.40ms) [127.0.0.1]
+2026-01-05 19:00:26 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: POST /auth/register [127.0.0.1]
+2026-01-05 19:00:26 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: POST /auth/register -> 400 (213.61ms) [127.0.0.1]
+2026-01-05 19:00:33 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /auth/get_user [127.0.0.1]
+2026-01-05 19:00:33 | [33mWARNING[0m | rag_pipeline | verify_token:122 | JWT verification error: Signature has expired.
+2026-01-05 19:00:33 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /auth/get_user -> 401 (1.58ms) [127.0.0.1]
+2026-01-05 19:00:34 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /auth/get_user [127.0.0.1]
+2026-01-05 19:00:34 | [33mWARNING[0m | rag_pipeline | verify_token:122 | JWT verification error: Signature has expired.
+2026-01-05 19:00:34 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /auth/get_user -> 401 (2.11ms) [127.0.0.1]
+2026-01-05 19:00:34 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /auth/get_user [127.0.0.1]
+2026-01-05 19:00:34 | [33mWARNING[0m | rag_pipeline | verify_token:122 | JWT verification error: Signature has expired.
+2026-01-05 19:00:34 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /auth/get_user -> 401 (1.81ms) [127.0.0.1]
+2026-01-05 19:00:35 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /auth/get_user [127.0.0.1]
+2026-01-05 19:00:35 | [33mWARNING[0m | rag_pipeline | verify_token:122 | JWT verification error: Signature has expired.
+2026-01-05 19:00:35 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /auth/get_user -> 401 (1.07ms) [127.0.0.1]
+2026-01-05 19:00:35 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /auth/get_user [127.0.0.1]
+2026-01-05 19:00:35 | [33mWARNING[0m | rag_pipeline | verify_token:122 | JWT verification error: Signature has expired.
+2026-01-05 19:00:35 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /auth/get_user -> 401 (1.52ms) [127.0.0.1]
+2026-01-05 19:00:35 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /auth/get_user [127.0.0.1]
+2026-01-05 19:00:35 | [33mWARNING[0m | rag_pipeline | verify_token:122 | JWT verification error: Signature has expired.
+2026-01-05 19:00:35 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /auth/get_user -> 401 (2.15ms) [127.0.0.1]
+2026-01-05 19:00:35 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /auth/get_user [127.0.0.1]
+2026-01-05 19:00:35 | [33mWARNING[0m | rag_pipeline | verify_token:122 | JWT verification error: Signature has expired.
+2026-01-05 19:00:35 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /auth/get_user -> 401 (1.15ms) [127.0.0.1]
+2026-01-05 19:00:35 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /auth/get_user [127.0.0.1]
+2026-01-05 19:00:35 | [33mWARNING[0m | rag_pipeline | verify_token:122 | JWT verification error: Signature has expired.
+2026-01-05 19:00:35 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /auth/get_user -> 401 (0.95ms) [127.0.0.1]
+2026-01-05 19:00:40 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: POST /auth/login [127.0.0.1]
+2026-01-05 19:00:41 | [32mINFO[0m | rag_pipeline | authenticate_user:71 | User authenticated successfully: ufawad0@gmail.com (ID: 1)
+2026-01-05 19:00:41 | [32mINFO[0m | rag_pipeline | create_tokens:94 | Tokens created for user: ufawad0@gmail.com (ID: 1)
+2026-01-05 19:00:41 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: POST /auth/login -> 200 (229.13ms) [127.0.0.1]
+2026-01-05 19:00:41 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /auth/get_user [127.0.0.1]
+2026-01-05 19:00:41 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /auth/get_user -> 200 (13.92ms) [127.0.0.1]
+2026-01-05 19:00:41 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2026-01-05 19:00:41 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /chat/models [127.0.0.1]
+2026-01-05 19:00:41 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2026-01-05 19:00:41 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /chat/models -> 200 (6.12ms) [127.0.0.1]
+2026-01-05 19:00:41 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /chat/models [127.0.0.1]
+2026-01-05 19:00:41 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /chat/models -> 200 (1.85ms) [127.0.0.1]
+2026-01-05 19:00:52 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 2 documents with 63 total chunks for user 1 across all domains
+2026-01-05 19:00:52 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (11607.32ms) [127.0.0.1]
+2026-01-05 19:00:52 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2026-01-05 19:00:52 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2026-01-05 19:00:56 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 2 documents with 63 total chunks for user 1 across all domains
+2026-01-05 19:00:56 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (3376.39ms) [127.0.0.1]
+2026-01-05 19:04:17 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2026-01-05 19:04:17 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2026-01-05 19:04:21 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 2 documents with 63 total chunks for user 1 across all domains
+2026-01-05 19:04:21 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (4400.10ms) [127.0.0.1]
+2026-01-05 19:04:21 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2026-01-05 19:04:21 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2026-01-05 19:04:25 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 2 documents with 63 total chunks for user 1 across all domains
+2026-01-05 19:04:25 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (3956.36ms) [127.0.0.1]
+2026-01-05 19:04:54 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2026-01-05 19:04:54 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /chat/models [127.0.0.1]
+2026-01-05 19:04:54 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2026-01-05 19:04:54 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /chat/models -> 200 (3.76ms) [127.0.0.1]
+2026-01-05 19:04:54 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /chat/models [127.0.0.1]
+2026-01-05 19:04:54 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /chat/models -> 200 (1.42ms) [127.0.0.1]
+2026-01-05 19:04:58 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 2 documents with 63 total chunks for user 1 across all domains
+2026-01-05 19:04:58 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (3550.69ms) [127.0.0.1]
+2026-01-05 19:04:58 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2026-01-05 19:04:58 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2026-01-05 19:05:01 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 2 documents with 63 total chunks for user 1 across all domains
+2026-01-05 19:05:01 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (3563.24ms) [127.0.0.1]
+2026-01-05 19:05:08 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: POST /chat [127.0.0.1]
+2026-01-05 19:05:08 | [32mINFO[0m | rag_pipeline | chat:293 | User ufawad0@gmail.com (ID: 1) asking question in domain 'therapy'
+2026-01-05 19:05:08 | [32mINFO[0m | rag_pipeline | _retrieve:385 | Starting document retrieval for query: 'What are the key features of MIRA?...'
+2026-01-05 19:05:08 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:242 | Starting retrieval for query: 'What are the key features of MIRA?...'
+2026-01-05 19:05:08 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:246 | Query preprocessed in 0.00s
+2026-01-05 19:05:08 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:258 | About to call retriever.invoke() at 0.00s
+2026-01-05 19:05:16 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:268 | Retriever returned 5 docs in 8.08s
+2026-01-05 19:05:16 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:306 | Trying score-based filtering...
+2026-01-05 19:05:18 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:350 | Final retrieval completed with 5 docs in 9.71s
+2026-01-05 19:05:18 | [32mINFO[0m | rag_pipeline | _retrieve:393 | Retrieved 5 documents in 9.71s
+2026-01-05 19:05:18 | [32mINFO[0m | rag_pipeline | _timed_llm_call:466 | Starting LLM generation for question: 'What are the key features of MIRA?...'
+2026-01-05 19:05:18 | [32mINFO[0m | rag_pipeline | _timed_llm_call:470 | Context formatted in 0.00s
+2026-01-05 19:05:19 | [32mINFO[0m | rag_pipeline | _timed_llm_call:477 | LLM response generated in 1.28s
+2026-01-05 19:05:19 | [32mINFO[0m | rag_pipeline | chat:308 | Chat completed for user 1 in domain 'therapy'
+2026-01-05 19:05:19 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: POST /chat -> 200 (11215.35ms) [127.0.0.1]
+2026-01-05 19:05:22 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2026-01-05 19:05:22 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2026-01-05 19:05:26 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 2 documents with 63 total chunks for user 1 across all domains
+2026-01-05 19:05:26 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (3863.90ms) [127.0.0.1]
+2026-01-05 19:05:26 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2026-01-05 19:05:26 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2026-01-05 19:05:29 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 2 documents with 63 total chunks for user 1 across all domains
+2026-01-05 19:05:29 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (3473.83ms) [127.0.0.1]
+2026-01-05 19:06:06 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2026-01-05 19:06:06 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /chat/models [127.0.0.1]
+2026-01-05 19:06:06 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2026-01-05 19:06:06 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /chat/models -> 200 (6.71ms) [127.0.0.1]
+2026-01-05 19:06:06 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /chat/models [127.0.0.1]
+2026-01-05 19:06:06 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /chat/models -> 200 (1.12ms) [127.0.0.1]
+2026-01-05 19:06:10 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 2 documents with 63 total chunks for user 1 across all domains
+2026-01-05 19:06:10 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (4293.65ms) [127.0.0.1]
+2026-01-05 19:06:10 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2026-01-05 19:06:10 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2026-01-05 19:06:14 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 2 documents with 63 total chunks for user 1 across all domains
+2026-01-05 19:06:14 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (3689.86ms) [127.0.0.1]
+2026-01-05 19:06:14 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2026-01-05 19:06:14 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2026-01-05 19:06:17 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 2 documents with 63 total chunks for user 1 across all domains
+2026-01-05 19:06:17 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (3531.23ms) [127.0.0.1]
+2026-01-05 19:06:17 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2026-01-05 19:06:17 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2026-01-05 19:06:21 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 2 documents with 63 total chunks for user 1 across all domains
+2026-01-05 19:06:21 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (3463.90ms) [127.0.0.1]
+2026-01-05 19:07:42 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: POST /auth/register [127.0.0.1]
+2026-01-05 19:07:42 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: POST /auth/register -> 400 (232.25ms) [127.0.0.1]
+2026-01-05 19:07:57 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: POST /auth/login [127.0.0.1]
+2026-01-05 19:07:58 | [33mWARNING[0m | rag_pipeline | authenticate_user:61 | Failed login attempt for: ufawad0@gmail.com
+2026-01-05 19:07:58 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: POST /auth/login -> 401 (204.68ms) [127.0.0.1]
+2026-01-05 19:08:03 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: POST /auth/login [127.0.0.1]
+2026-01-05 19:08:03 | [32mINFO[0m | rag_pipeline | authenticate_user:71 | User authenticated successfully: ufawad0@gmail.com (ID: 1)
+2026-01-05 19:08:03 | [32mINFO[0m | rag_pipeline | create_tokens:94 | Tokens created for user: ufawad0@gmail.com (ID: 1)
+2026-01-05 19:08:03 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: POST /auth/login -> 200 (212.45ms) [127.0.0.1]
+2026-01-05 19:12:19 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: POST /upload [127.0.0.1]
+2026-01-05 19:12:19 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: POST /upload -> 401 (13.35ms) [127.0.0.1]
+2026-01-05 19:12:35 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: POST /upload [127.0.0.1]
+2026-01-05 19:12:35 | [32mINFO[0m | rag_pipeline | upload_file:209 | User ufawad0@gmail.com (ID: 1) uploading file 'RJM_MIRA_PLATFORM_UPDATE.pdf' to domain 'therapy' with document name 'mira'
+2026-01-05 19:12:40 | [32mINFO[0m | rag_pipeline | upload_file:255 | Upload completed for user 1: RJM_MIRA_PLATFORM_UPDATE.pdf -> 5 chunks
+2026-01-05 19:12:40 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: POST /upload -> 200 (4799.98ms) [127.0.0.1]
+2026-01-05 19:12:47 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /auth/get_user [127.0.0.1]
+2026-01-05 19:12:47 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /auth/get_user -> 200 (63.95ms) [127.0.0.1]
+2026-01-05 19:12:47 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2026-01-05 19:12:47 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2026-01-05 19:12:51 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 3 documents with 68 total chunks for user 1 across all domains
+2026-01-05 19:12:51 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (4225.13ms) [127.0.0.1]
+2026-01-05 19:12:51 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2026-01-05 19:12:51 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2026-01-05 19:12:54 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /chat/models [127.0.0.1]
+2026-01-05 19:12:54 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /chat/models -> 200 (1.00ms) [127.0.0.1]
+2026-01-05 19:12:54 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /chat/models [127.0.0.1]
+2026-01-05 19:12:54 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /chat/models -> 200 (0.44ms) [127.0.0.1]
+2026-01-05 19:12:55 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 3 documents with 68 total chunks for user 1 across all domains
+2026-01-05 19:12:55 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (3539.35ms) [127.0.0.1]
+2026-01-05 19:12:55 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2026-01-05 19:12:55 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2026-01-05 19:12:58 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 3 documents with 68 total chunks for user 1 across all domains
+2026-01-05 19:12:58 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (3508.22ms) [127.0.0.1]
+2026-01-05 19:12:58 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2026-01-05 19:12:58 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2026-01-05 19:13:02 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 2 documents with 63 total chunks for user 1 across all domains
+2026-01-05 19:13:02 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (3724.97ms) [127.0.0.1]
+2026-01-05 19:13:02 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: POST /chat [127.0.0.1]
+2026-01-05 19:13:02 | [32mINFO[0m | rag_pipeline | chat:293 | User ufawad0@gmail.com (ID: 1) asking question in domain 'therapy'
+2026-01-05 19:13:02 | [32mINFO[0m | rag_pipeline | _retrieve:385 | Starting document retrieval for query: 'What is MIRA?...'
+2026-01-05 19:13:02 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:242 | Starting retrieval for query: 'What is MIRA?...'
+2026-01-05 19:13:02 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:246 | Query preprocessed in 0.00s
+2026-01-05 19:13:02 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:258 | About to call retriever.invoke() at 0.00s
+2026-01-05 19:13:09 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:268 | Retriever returned 5 docs in 6.73s
+2026-01-05 19:13:09 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:306 | Trying score-based filtering...
+2026-01-05 19:13:13 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:350 | Final retrieval completed with 5 docs in 10.80s
+2026-01-05 19:13:13 | [32mINFO[0m | rag_pipeline | _retrieve:393 | Retrieved 5 documents in 10.80s
+2026-01-05 19:13:13 | [32mINFO[0m | rag_pipeline | _timed_llm_call:466 | Starting LLM generation for question: 'What is MIRA?...'
+2026-01-05 19:13:13 | [32mINFO[0m | rag_pipeline | _timed_llm_call:470 | Context formatted in 0.00s
+2026-01-05 19:13:24 | [32mINFO[0m | rag_pipeline | _timed_llm_call:477 | LLM response generated in 11.27s
+2026-01-05 19:13:24 | [32mINFO[0m | rag_pipeline | chat:308 | Chat completed for user 1 in domain 'therapy'
+2026-01-05 19:13:24 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: POST /chat -> 200 (22110.25ms) [127.0.0.1]
+2026-01-05 19:13:35 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2026-01-05 19:13:35 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2026-01-05 19:13:36 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /chat/models [127.0.0.1]
+2026-01-05 19:13:36 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /chat/models -> 200 (0.91ms) [127.0.0.1]
+2026-01-05 19:13:36 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /chat/models [127.0.0.1]
+2026-01-05 19:13:36 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /chat/models -> 200 (0.55ms) [127.0.0.1]
+2026-01-05 19:13:39 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 3 documents with 68 total chunks for user 1 across all domains
+2026-01-05 19:13:39 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (3428.18ms) [127.0.0.1]
+2026-01-05 19:13:39 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2026-01-05 19:13:39 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2026-01-05 19:13:42 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 3 documents with 68 total chunks for user 1 across all domains
+2026-01-05 19:13:42 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (3502.02ms) [127.0.0.1]
+2026-01-05 19:13:42 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2026-01-05 19:13:42 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2026-01-05 19:13:45 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 3 documents with 68 total chunks for user 1 across all domains
+2026-01-05 19:13:45 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (3405.43ms) [127.0.0.1]
+2026-01-05 19:13:45 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2026-01-05 19:13:45 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2026-01-05 19:13:50 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 3 documents with 68 total chunks for user 1 across all domains
+2026-01-05 19:13:50 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (4929.73ms) [127.0.0.1]
+2026-01-05 19:13:52 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: POST /chat [127.0.0.1]
+2026-01-05 19:13:52 | [32mINFO[0m | rag_pipeline | chat:293 | User ufawad0@gmail.com (ID: 1) asking question in domain 'therapy'
+2026-01-05 19:13:52 | [32mINFO[0m | rag_pipeline | _retrieve:385 | Starting document retrieval for query: 'Did I previously ask you about MIRA?...'
+2026-01-05 19:13:52 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:242 | Starting retrieval for query: 'Did I previously ask you about MIRA?...'
+2026-01-05 19:13:52 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:246 | Query preprocessed in 0.00s
+2026-01-05 19:13:52 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:258 | About to call retriever.invoke() at 0.00s
+2026-01-05 19:13:56 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:268 | Retriever returned 5 docs in 3.94s
+2026-01-05 19:13:56 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:306 | Trying score-based filtering...
+2026-01-05 19:13:58 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:350 | Final retrieval completed with 5 docs in 6.50s
+2026-01-05 19:13:58 | [32mINFO[0m | rag_pipeline | _retrieve:393 | Retrieved 5 documents in 6.50s
+2026-01-05 19:13:58 | [32mINFO[0m | rag_pipeline | _timed_llm_call:466 | Starting LLM generation for question: 'Did I previously ask you about MIRA?...'
+2026-01-05 19:13:58 | [32mINFO[0m | rag_pipeline | _timed_llm_call:470 | Context formatted in 0.00s
+2026-01-05 19:14:03 | [32mINFO[0m | rag_pipeline | _timed_llm_call:477 | LLM response generated in 4.80s
+2026-01-05 19:14:03 | [32mINFO[0m | rag_pipeline | chat:308 | Chat completed for user 1 in domain 'therapy'
+2026-01-05 19:14:03 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: POST /chat -> 200 (11337.98ms) [127.0.0.1]
+2026-01-05 19:14:24 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: POST /chat [127.0.0.1]
+2026-01-05 19:14:24 | [32mINFO[0m | rag_pipeline | chat:293 | User ufawad0@gmail.com (ID: 1) asking question in domain 'therapy'
+2026-01-05 19:14:24 | [32mINFO[0m | rag_pipeline | _retrieve:385 | Starting document retrieval for query: 'tell me all about MIRA please...'
+2026-01-05 19:14:24 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:242 | Starting retrieval for query: 'tell me all about MIRA please...'
+2026-01-05 19:14:24 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:246 | Query preprocessed in 0.00s
+2026-01-05 19:14:24 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:258 | About to call retriever.invoke() at 0.00s
+2026-01-05 19:14:28 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:268 | Retriever returned 5 docs in 3.95s
+2026-01-05 19:14:28 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:306 | Trying score-based filtering...
+2026-01-05 19:14:30 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:350 | Final retrieval completed with 5 docs in 5.86s
+2026-01-05 19:14:30 | [32mINFO[0m | rag_pipeline | _retrieve:393 | Retrieved 5 documents in 5.86s
+2026-01-05 19:14:30 | [32mINFO[0m | rag_pipeline | _timed_llm_call:466 | Starting LLM generation for question: 'tell me all about MIRA please...'
+2026-01-05 19:14:30 | [32mINFO[0m | rag_pipeline | _timed_llm_call:470 | Context formatted in 0.00s
+2026-01-05 19:14:47 | [32mINFO[0m | rag_pipeline | _timed_llm_call:477 | LLM response generated in 17.02s
+2026-01-05 19:14:47 | [32mINFO[0m | rag_pipeline | chat:308 | Chat completed for user 1 in domain 'therapy'
+2026-01-05 19:14:47 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: POST /chat -> 200 (22915.48ms) [127.0.0.1]
+2026-01-05 19:16:13 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /auth/get_user [127.0.0.1]
+2026-01-05 19:16:13 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /auth/get_user -> 200 (31.34ms) [127.0.0.1]
+2026-01-05 19:16:13 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2026-01-05 19:16:13 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2026-01-05 19:16:15 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /auth/get_user [127.0.0.1]
+2026-01-05 19:16:15 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /auth/get_user -> 200 (2.70ms) [127.0.0.1]
+2026-01-05 19:16:15 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2026-01-05 19:16:15 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /chat/models [127.0.0.1]
+2026-01-05 19:16:15 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2026-01-05 19:16:15 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /chat/models -> 200 (4.82ms) [127.0.0.1]
+2026-01-05 19:16:15 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /chat/models [127.0.0.1]
+2026-01-05 19:16:15 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /chat/models -> 200 (1.15ms) [127.0.0.1]
+2026-01-05 19:16:16 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 3 documents with 68 total chunks for user 1 across all domains
+2026-01-05 19:16:16 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (3675.25ms) [127.0.0.1]
+2026-01-05 19:16:20 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 3 documents with 68 total chunks for user 1 across all domains
+2026-01-05 19:16:20 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (4554.62ms) [127.0.0.1]
+2026-01-05 19:16:20 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2026-01-05 19:16:20 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2026-01-05 19:16:24 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 3 documents with 68 total chunks for user 1 across all domains
+2026-01-05 19:16:24 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (3957.49ms) [127.0.0.1]
+2026-01-05 19:16:24 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2026-01-05 19:16:24 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2026-01-05 19:16:30 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 3 documents with 68 total chunks for user 1 across all domains
+2026-01-05 19:16:30 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (6614.19ms) [127.0.0.1]
+2026-01-05 19:16:30 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2026-01-05 19:16:30 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2026-01-05 19:16:37 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 3 documents with 68 total chunks for user 1 across all domains
+2026-01-05 19:16:37 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (6680.01ms) [127.0.0.1]
+2026-01-05 19:16:39 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2026-01-05 19:16:39 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /chat/models [127.0.0.1]
+2026-01-05 19:16:39 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2026-01-05 19:16:39 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /chat/models -> 200 (6.84ms) [127.0.0.1]
+2026-01-05 19:16:39 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /chat/models [127.0.0.1]
+2026-01-05 19:16:39 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /chat/models -> 200 (0.78ms) [127.0.0.1]
+2026-01-05 19:16:45 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 3 documents with 68 total chunks for user 1 across all domains
+2026-01-05 19:16:45 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (6095.19ms) [127.0.0.1]
+2026-01-05 19:16:45 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2026-01-05 19:16:45 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2026-01-05 19:16:49 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 3 documents with 68 total chunks for user 1 across all domains
+2026-01-05 19:16:49 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (3877.22ms) [127.0.0.1]
+2026-01-05 19:17:44 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /auth/get_user [127.0.0.1]
+2026-01-05 19:17:44 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /auth/get_user -> 200 (15.55ms) [127.0.0.1]
+2026-01-05 19:17:44 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2026-01-05 19:17:44 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /chat/models [127.0.0.1]
+2026-01-05 19:17:44 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2026-01-05 19:17:44 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /chat/models -> 200 (4.07ms) [127.0.0.1]
+2026-01-05 19:17:44 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /chat/models [127.0.0.1]
+2026-01-05 19:17:44 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /chat/models -> 200 (0.63ms) [127.0.0.1]
+2026-01-05 19:17:48 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 3 documents with 68 total chunks for user 1 across all domains
+2026-01-05 19:17:48 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (4315.12ms) [127.0.0.1]
+2026-01-05 19:17:48 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: GET /documents [127.0.0.1]
+2026-01-05 19:17:48 | [32mINFO[0m | rag_pipeline | get_all_documents:631 | User ufawad0@gmail.com (ID: 1) requesting all documents from vector store
+2026-01-05 19:17:52 | [32mINFO[0m | rag_pipeline | get_all_documents:724 | Found 3 documents with 68 total chunks for user 1 across all domains
+2026-01-05 19:17:52 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: GET /documents -> 200 (3504.67ms) [127.0.0.1]
+2026-01-05 19:17:55 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: POST /chat [127.0.0.1]
+2026-01-05 19:17:55 | [32mINFO[0m | rag_pipeline | chat:293 | User ufawad0@gmail.com (ID: 1) asking question in domain 'therapy'
+2026-01-05 19:17:55 | [32mINFO[0m | rag_pipeline | _retrieve:385 | Starting document retrieval for query: 'What is MIRA? briefly explain...'
+2026-01-05 19:17:55 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:242 | Starting retrieval for query: 'What is MIRA? briefly explain...'
+2026-01-05 19:17:55 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:246 | Query preprocessed in 0.00s
+2026-01-05 19:17:55 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:258 | About to call retriever.invoke() at 0.00s
+2026-01-05 19:17:59 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:268 | Retriever returned 5 docs in 3.29s
+2026-01-05 19:17:59 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:306 | Trying score-based filtering...
+2026-01-05 19:18:00 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:350 | Final retrieval completed with 5 docs in 4.87s
+2026-01-05 19:18:00 | [32mINFO[0m | rag_pipeline | _retrieve:393 | Retrieved 5 documents in 4.87s
+2026-01-05 19:18:00 | [32mINFO[0m | rag_pipeline | _timed_llm_call:466 | Starting LLM generation for question: 'What is MIRA? briefly explain...'
+2026-01-05 19:18:00 | [32mINFO[0m | rag_pipeline | _timed_llm_call:470 | Context formatted in 0.00s
+2026-01-05 19:18:04 | [32mINFO[0m | rag_pipeline | _timed_llm_call:477 | LLM response generated in 4.20s
+2026-01-05 19:18:04 | [32mINFO[0m | rag_pipeline | chat:308 | Chat completed for user 1 in domain 'therapy'
+2026-01-05 19:18:04 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: POST /chat -> 200 (9104.85ms) [127.0.0.1]
+2026-01-05 19:18:11 | [32mINFO[0m | rag_pipeline | dispatch:23 | Request started: POST /chat [127.0.0.1]
+2026-01-05 19:18:11 | [32mINFO[0m | rag_pipeline | chat:293 | User ufawad0@gmail.com (ID: 1) asking question in domain 'therapy'
+2026-01-05 19:18:11 | [32mINFO[0m | rag_pipeline | _retrieve:385 | Starting document retrieval for query: 'I need more details...'
+2026-01-05 19:18:11 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:242 | Starting retrieval for query: 'I need more details...'
+2026-01-05 19:18:11 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:246 | Query preprocessed in 0.00s
+2026-01-05 19:18:11 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:258 | About to call retriever.invoke() at 0.00s
+2026-01-05 19:18:14 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:268 | Retriever returned 5 docs in 2.85s
+2026-01-05 19:18:14 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:306 | Trying score-based filtering...
+2026-01-05 19:18:15 | [32mINFO[0m | rag_pipeline | _retrieve_with_hybrid_strategy:350 | Final retrieval completed with 5 docs in 3.54s
+2026-01-05 19:18:15 | [32mINFO[0m | rag_pipeline | _retrieve:393 | Retrieved 5 documents in 3.54s
+2026-01-05 19:18:15 | [32mINFO[0m | rag_pipeline | _timed_llm_call:466 | Starting LLM generation for question: 'I need more details...'
+2026-01-05 19:18:15 | [32mINFO[0m | rag_pipeline | _timed_llm_call:470 | Context formatted in 0.00s
+2026-01-05 19:18:26 | [32mINFO[0m | rag_pipeline | _timed_llm_call:477 | LLM response generated in 10.86s
+2026-01-05 19:18:26 | [32mINFO[0m | rag_pipeline | chat:308 | Chat completed for user 1 in domain 'therapy'
+2026-01-05 19:18:26 | [32mINFO[0m | rag_pipeline | dispatch:36 | Request completed: POST /chat -> 200 (14436.25ms) [127.0.0.1]
+2026-01-05 19:21:29 | [32mINFO[0m | rag_pipeline | log_shutdown:260 | ================================================================================
+2026-01-05 19:21:29 | [32mINFO[0m | rag_pipeline | log_shutdown:261 | RAG Pipeline Server Shutting Down
+2026-01-05 19:21:29 | [32mINFO[0m | rag_pipeline | log_shutdown:262 | Timestamp: 2026-01-05 19:21:29
+2026-01-05 19:21:29 | [32mINFO[0m | rag_pipeline | log_shutdown:263 | ================================================================================

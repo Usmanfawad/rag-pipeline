@@ -236,28 +236,46 @@ async def upload_file(
         }
         
         # Ingest the file with user-specific namespace and enhanced metadata
-        chunks = await ingest_uploaded_file(
-            domain=domain,
-            file_content=content,
-            filename=file.filename,
-            namespace=user_namespace,
-            metadata=enhanced_metadata
-        )
+        try:
+            chunks = await ingest_uploaded_file(
+                domain=domain,
+                file_content=content,
+                filename=file.filename,
+                namespace=user_namespace,
+                metadata=enhanced_metadata
+            )
+        except Exception as ingest_error:
+            app_logger.error(f"Ingestion error for file {file.filename}: {str(ingest_error)}")
+            raise HTTPException(
+                status_code=500,
+                detail=f"Failed to ingest file: {str(ingest_error)}"
+            )
+        
+        # Determine status message
+        if chunks == 0:
+            status = "duplicate"  # File already exists
+            status_message = "File already uploaded (no new chunks indexed)"
+        else:
+            status = "success"
+            status_message = f"Successfully indexed {chunks} chunks"
         
         result = {
             "filename": file.filename,
             "chunks_indexed": chunks,
             "file_size": len(content),
             "file_type": file_path.suffix.lower(),
-            "status": "success"
+            "status": status
         }
         
-        app_logger.info(f"Upload completed for user {current_user.id}: {file.filename} -> {chunks} chunks")
+        app_logger.info(
+            f"Upload completed for user {current_user.id}: {file.filename} -> {chunks} chunks "
+            f"(status: {status})"
+        )
         
         return FileUploadResponse(
             success=True,
             total_files_processed=1,
-            successful_files=1,
+            successful_files=1 if chunks > 0 else 0,
             total_chunks_indexed=chunks,
             domain=domain,
             document_name=document_name,
@@ -282,7 +300,7 @@ def chat(
     current_user: User = Depends(get_current_active_user),
     user_namespace: str = Depends(get_user_namespace)
 ):
-    """Chat with the RAG system using user's documents."""
+    """Chat with the RAG system using user's documents. Supports chat history for conversational context."""
     try:
         # Validate model if specified
         if req.model:
@@ -290,14 +308,24 @@ def chat(
             if not is_accessible:
                 raise HTTPException(status_code=400, detail=f"Model not accessible: {access_message}")
         
-        app_logger.info(f"User {current_user.email} (ID: {current_user.id}) asking question in domain '{req.domain}'")
+        # Convert chat history to dict format if provided
+        chat_history_dict = None
+        if req.chat_history:
+            chat_history_dict = [{"role": msg.role, "content": msg.content} for msg in req.chat_history]
+            app_logger.info(
+                f"User {current_user.email} (ID: {current_user.id}) asking question in domain '{req.domain}' "
+                f"with {len(req.chat_history)} previous messages"
+            )
+        else:
+            app_logger.info(f"User {current_user.email} (ID: {current_user.id}) asking question in domain '{req.domain}'")
         
         chain = build_rag_chain(
             domain=req.domain,
             namespace=user_namespace,
             k=req.k,
             temperature=req.temperature,
-            model=req.model
+            model=req.model,
+            chat_history=chat_history_dict
         )
         answer = chain.invoke(req.question)
         
@@ -320,6 +348,7 @@ def chat(
             "parameters": {
                 "k": req.k,
                 "temperature": req.temperature,
+                "has_chat_history": req.chat_history is not None and len(req.chat_history) > 0
             }
         }
     except HTTPException:
@@ -335,7 +364,7 @@ def chat_debug(
     current_user: User = Depends(get_current_active_user),
     user_namespace: str = Depends(get_user_namespace)
 ):
-    """Chat with debug information showing retrieved context."""
+    """Chat with debug information showing retrieved context. Supports chat history."""
     try:
         # Validate model if specified
         if req.model:
@@ -343,7 +372,16 @@ def chat_debug(
             if not is_accessible:
                 raise HTTPException(status_code=400, detail=f"Model not accessible: {access_message}")
         
-        app_logger.info(f"User {current_user.email} (ID: {current_user.id}) using debug chat in domain '{req.domain}'")
+        # Convert chat history to dict format if provided
+        chat_history_dict = None
+        if req.chat_history:
+            chat_history_dict = [{"role": msg.role, "content": msg.content} for msg in req.chat_history]
+            app_logger.info(
+                f"User {current_user.email} (ID: {current_user.id}) using debug chat in domain '{req.domain}' "
+                f"with {len(req.chat_history)} previous messages"
+            )
+        else:
+            app_logger.info(f"User {current_user.email} (ID: {current_user.id}) using debug chat in domain '{req.domain}'")
         
         chain = build_rag_chain(
             domain=req.domain,
@@ -351,7 +389,8 @@ def chat_debug(
             k=req.k,
             temperature=req.temperature,
             model=req.model,
-            peek_context=True
+            peek_context=True,
+            chat_history=chat_history_dict
         )
         result = chain.invoke(req.question)
         

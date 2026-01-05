@@ -770,6 +770,9 @@ async def ingest_uploaded_file(
     """Ingest a single uploaded file."""
     import tempfile
     import os
+    from app.log import app_logger
+    
+    app_logger.info(f"Starting ingestion for file '{filename}' (size: {len(file_content)} bytes) in domain '{domain}'")
     
     # Create temporary file
     with tempfile.NamedTemporaryFile(delete=False, suffix=Path(filename).suffix) as tmp_file:
@@ -806,10 +809,15 @@ async def ingest_uploaded_file(
         
         loader = loaders.get(suffix)
         if not loader:
+            app_logger.error(f"Unsupported file type: {suffix} for file '{filename}'")
             raise ValueError(f"Unsupported file type: {suffix}")
         
+        app_logger.info(f"Loading file '{filename}' using {loader.__name__}")
         docs = loader(tmp_path)
+        app_logger.info(f"Loaded {len(docs)} documents from file '{filename}'")
         if not docs:
+            from app.log import app_logger
+            app_logger.warning(f"File '{filename}' loaded but produced no documents (file may be empty or unreadable)")
             return 0
         
         # Update metadata with original filename and additional metadata
@@ -830,16 +838,27 @@ async def ingest_uploaded_file(
                 d.metadata.update(metadata)
         
         # Split documents
+        app_logger.info(f"Splitting {len(docs)} documents into chunks for file '{filename}'")
         splits = _split_docs(docs)
+        app_logger.info(f"Created {len(splits)} chunks from file '{filename}'")
         
         # Filter and ingest
         index_name = _index_name(domain)
+        app_logger.info(f"Checking for existing chunks in index '{index_name}' (namespace: {namespace})")
         new_splits, new_ids = _filter_new_docs(index_name, namespace, splits)
         
         if not new_splits:
+            app_logger.warning(
+                f"No new chunks to index for file '{filename}' in domain '{domain}' "
+                f"(namespace: {namespace}). All {len(splits)} chunks already exist. "
+                f"This may mean the file was already uploaded."
+            )
             return 0
         
+        app_logger.info(f"Found {len(new_splits)} new chunks to index (out of {len(splits)} total) for file '{filename}'")
+        
         # Embed and store
+        app_logger.info(f"Creating embeddings and storing {len(new_splits)} chunks for file '{filename}'")
         embeddings = OpenAIEmbeddings(
             model=settings.OPENAI_EMBEDDING_MODEL,
             api_key=settings.OPENAI_API_KEY,
@@ -853,9 +872,18 @@ async def ingest_uploaded_file(
         )
         
         vectorstore.add_documents(new_splits, ids=new_ids)
+        app_logger.info(f"Successfully indexed {len(new_splits)} chunks for file '{filename}'")
         return len(new_splits)
         
+    except Exception as e:
+        from app.log import app_logger
+        app_logger.error(f"Error ingesting file '{filename}': {str(e)}", exc_info=True)
+        raise
     finally:
         # Clean up temporary file
         if tmp_path.exists():
-            os.unlink(tmp_path)
+            try:
+                os.unlink(tmp_path)
+            except Exception as e:
+                from app.log import app_logger
+                app_logger.warning(f"Could not delete temporary file {tmp_path}: {e}")

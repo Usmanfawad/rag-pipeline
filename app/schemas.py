@@ -11,12 +11,22 @@ class IngestRequest(BaseModel):
     namespace: Optional[str] = Field(None, description="Optional namespace for organization (e.g., 'openai', 'claude')")
 
 
+class ChatMessage(BaseModel):
+    """Chat message for conversation history."""
+    role: Literal["system", "user", "assistant"] = Field(..., description="Role of the message sender")
+    content: str = Field(..., description="Content of the message")
+
+
 class ChatRequest(BaseModel):
     domain: Domain
     question: str = Field(..., description="The question to ask")
     k: int = Field(5, ge=1, le=20, description="Number of documents to retrieve")
     temperature: float = Field(0.2, ge=0.0, le=1.0, description="LLM temperature for response generation")
     model: Optional[str] = Field(None, description="Model to use (OpenAI or Groq). If not specified, uses default model.")
+    chat_history: Optional[List[ChatMessage]] = Field(
+        None, 
+        description="Optional chat history. Messages should follow OpenAI format with 'role' (system/user/assistant) and 'content'."
+    )
 
 
 class CompareRequest(BaseModel):

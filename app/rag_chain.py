@@ -3,10 +3,11 @@ import re
 
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_pinecone import PineconeVectorStore
-from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough, RunnableLambda
 from langchain_core.documents import Document
+from langchain_core.messages import HumanMessage, AIMessage, SystemMessage, BaseMessage
 
 from app.settings import settings
 from app.model_manager import create_chat_model, get_model_info, suggest_namespace_for_model
@@ -37,6 +38,36 @@ RESPONSE GUIDELINES:
 - Acknowledge when information comes from the user's specific document collection
 """
 
+def _build_prompt_with_history(chat_history: Optional[List[BaseMessage]] = None) -> ChatPromptTemplate:
+    """Build a prompt template that includes chat history if provided."""
+    messages = [
+        ("system", SYSTEM),
+    ]
+    
+    # Add chat history if provided (should already be BaseMessage objects)
+    if chat_history:
+        for msg in chat_history:
+            if isinstance(msg, BaseMessage):
+                messages.append(msg)
+            else:
+                # Fallback: convert dict to message if needed
+                if isinstance(msg, dict):
+                    role = msg.get("role", "user")
+                    content = msg.get("content", "")
+                    if role == "system":
+                        messages.append(SystemMessage(content=content))
+                    elif role == "user":
+                        messages.append(HumanMessage(content=content))
+                    elif role == "assistant":
+                        messages.append(AIMessage(content=content))
+    
+    # Add the current question with context
+    messages.append(("human", "CONTEXT:\n{context}\n\nQUESTION: {question}"))
+    
+    return ChatPromptTemplate.from_messages(messages)
+
+
+# Default prompt without history (for backward compatibility)
 PROMPT = ChatPromptTemplate.from_messages(
     [
         ("system", SYSTEM),
@@ -351,6 +382,26 @@ def _retrieve_with_hybrid_strategy(
     return final_docs[:k]
 
 
+def _convert_chat_history_to_messages(chat_history: Optional[List[Dict[str, str]]]) -> Optional[List[BaseMessage]]:
+    """Convert chat history from API format to LangChain message format."""
+    if not chat_history:
+        return None
+    
+    messages = []
+    for msg in chat_history:
+        role = msg.get("role", "user")
+        content = msg.get("content", "")
+        
+        if role == "system":
+            messages.append(SystemMessage(content=content))
+        elif role == "user":
+            messages.append(HumanMessage(content=content))
+        elif role == "assistant":
+            messages.append(AIMessage(content=content))
+    
+    return messages if messages else None
+
+
 def build_rag_chain(
     domain: Domain,
     namespace: Optional[str] = None,
@@ -358,6 +409,7 @@ def build_rag_chain(
     temperature: float = 0.2,
     model: str = None,
     peek_context: bool = False,
+    chat_history: Optional[List[Dict[str, str]]] = None,
 ):
     """Build an enhanced RAG chain with improved retrieval and generation."""
     
@@ -410,6 +462,12 @@ def build_rag_chain(
             request_timeout=30.0  # 30 second timeout for LLM calls
         )
 
+    # Convert chat history to LangChain messages
+    langchain_history = _convert_chat_history_to_messages(chat_history)
+    
+    # Build prompt with or without history
+    prompt_template = _build_prompt_with_history(langchain_history) if langchain_history else PROMPT
+    
     if peek_context:
         # Debug mode: return context alongside answer
         def _build_debug_response(input_data):
@@ -417,8 +475,8 @@ def build_rag_chain(
             question = input_data["question"]
             context = fmt_context_node.invoke(context_docs)
             
-            # Generate answer
-            answer = (PROMPT | llm | StrOutputParser()).invoke({
+            # Generate answer with history-aware prompt
+            answer = (prompt_template | llm | StrOutputParser()).invoke({
                 "context": context,
                 "question": question
             })
@@ -469,8 +527,8 @@ def build_rag_chain(
         context = fmt_context_node.invoke(inputs["context"])
         app_logger.info(f"Context formatted in {time.time() - start:.2f}s")
         
-        # Generate response
-        response = (PROMPT | llm | StrOutputParser()).invoke({
+        # Generate response with history-aware prompt
+        response = (prompt_template | llm | StrOutputParser()).invoke({
             "context": context,
             "question": inputs["question"]
         })
